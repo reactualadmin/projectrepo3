@@ -1,0 +1,124 @@
+
+version: 2
+
+models:
+  - name: customers
+    description: This table has basic information about a customer, as well as some derived facts based on a customers orders
+
+    columns:
+      - name: customer_id
+        description: This is a unique identifier for a customer
+        tests:
+          - unique
+          - not_null
+
+      - name: first_name
+        description: Customers first name. PII.
+
+      - name: last_name
+        description: Customers last name. PII.
+
+      - name: signup_date
+        description: Date customer signed up. 
+
+      - name: tier
+        description: Customer tier based on average ratings and number of trips.
+
+      - name: city
+        description: Customer's signup city.
+
+      - name: state
+        description: Customer's signup state.
+
+      - name: country
+        description: Customer's signup country. 
+
+      - name: first_order
+        description: Date (UTC) of a customers first order
+
+      - name: most_recent_order
+        description: Date (UTC) of a customers most recent order
+
+      - name: number_of_orders
+        description: Count of the number of orders a customer has placed
+
+      - name: customer_lifetime_value
+        description: Total value (USD) of a customers orders
+
+  - name: orders
+    description: This table has basic information about orders, as well as some derived facts based on payments
+
+    columns:
+      - name: order_trip_id
+        tests:
+          - unique
+          - not_null
+        description: This is a unique identifier for an order
+
+      - name: customer_id
+        description: Foreign key to the customers table
+        tests:
+          - not_null
+          - relationships:
+              to: ref('customers')
+              field: customer_id
+
+      - name: orderdate
+        description: Date (UTC) that the order was placed
+
+      - name: order_status
+        description: status of order
+        tests:
+          - accepted_values:
+              values: ['completed', 'canceled', 'unfulfilled']
+
+      - name: amount
+        description: Total amount (USD) of the order
+        tests:
+          - not_null
+
+metrics:
+  - name: new_customers
+    label: New Customers
+    model: ref('customers')
+    description: "The number of paid customers using the product"
+
+    type: count
+    sql: customer_id # superfluous here, but shown as an example
+
+    timestamp: signup_date
+    time_grains: [day, week, month]
+
+    dimensions:
+      - tier
+      - city
+      - state
+      - country
+    
+    filters:
+      - field: customer_lifetime_value
+        operator: '>='
+        value: '50'
+    
+  - name: total_orders
+    label: Total orders
+    model: ref('orders')
+    description: "Total order amount"
+
+    type: sum
+    sql: amount
+
+    timestamp: order_date
+    time_grains: [ day, week, month ]
+
+    dimensions:
+      - order_status
+
+    filters:
+      - field: order_status
+        operator: '='
+        value: "'completed'"
+      - field: order_status
+        operator: <>
+        value: "'cancelled'"
+      

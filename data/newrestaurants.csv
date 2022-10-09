@@ -1,0 +1,1001 @@
+restaurant_id,name,address,category,city,country,postalCode,state,status,expected_prep_time,max_delivery_radius,is_delivery,is_pickup,first_order_date
+40000,SONIC Drive In,800 N Canal Blvd,American Restaurant and Fast Food Restaurant,Thibodaux,US,70301,LA,ACTIVE,22,6,Yes,Yes,6/10/2021
+40001,SONIC Drive In,800 N Canal Blvd,Fast Food Restaurants,Thibodaux,US,70301,LA,ACTIVE,20,8,Yes,Yes,2/15/2021
+40002,Taco Bell,206 Wears Valley Rd,Fast Food Restaurant,Pigeon Forge,US,37863,TN,ACTIVE,23,9,Yes,Yes,4/15/2021
+40003,Arby's,3652 Parkway,Fast Food,Pigeon Forge,US,37863,TN,DELETED,28,8,Yes,Yes,6/3/2021
+40004,Steak 'n Shake,2118 Mt Zion Parkway,Fast Food Restaurant,Morrow,US,30260,GA,ACTIVE,39,15,Yes,Yes,8/1/2021
+40005,Wendy's,9768 Grand River Ave,Fast Food Restaurant,Detroit,US,48204,MI,ACTIVE,39,7,Yes,Yes,5/6/2021
+40006,Burger King,13600 W McNichols Rd,Fast Food Restaurant,Detroit,US,48235,MI,ACTIVE,23,6,Yes,Yes,11/11/2021
+40007,Chipotle Mexican Grill,4111 Oceanside Blvd,Fast Food,Oceanside,US,92056,CA,DELETED,27,11,Yes,Yes,7/1/2021
+40008,7-Eleven,162 Old Country Rd,Fast Food Restaurants,Riverhead,US,11901,NY,ACTIVE,39,14,Yes,Yes,12/26/2021
+40009,Dairy Queen,1407 S Stockton Ave,Fast Food Restaurant,Monahans,US,79756,TX,ACTIVE,34,7,Yes,Yes,9/10/2021
+40010,Dairy Queen,208 W Mason St,Fast Food Restaurant and Ice Cream Shop,Mabank,US,75147,TX,ACTIVE,21,6,Yes,Yes,5/13/2021
+40011,Dairy Queen,5801 Highway 6,Ice Cream Shop and Fast Food Restaurant,Missouri City,US,77459,TX,ACTIVE,35,12,Yes,Yes,10/18/2021
+40012,Mr. Hero,3454 Manchester Rd,Fast Food Restaurant,Akron,US,44319,OH,ACTIVE,37,12,Yes,Yes,8/11/2021
+40013,Golden Chick,1500 E Main St,Fast Food Restaurants,Eastland,US,76448,TX,ACTIVE,26,6,Yes,Yes,5/30/2021
+40014,Carl's Jr,1190 W Foothill Blvd,Fast Food Restaurant,Azusa,US,91702,CA,ACTIVE,32,12,Yes,Yes,8/19/2021
+40015,Checkers,601 N Main St,Fast Food Restaurants,Summerville,US,29483,SC,ACTIVE,32,5,Yes,Yes,9/22/2021
+40016,Rally's,1927 Woodville Road,Fast Food,Oregon,US,43616,OH,ACTIVE,30,6,Yes,Yes,8/30/2021
+40017,Togo's,6316 W 89th St,Fast Food,Los Angeles,US,90045,CA,ACTIVE,23,8,Yes,Yes,4/14/2021
+40018,Rally's,3105 Highway 80 E,Fast Food Restaurants,Pearl,US,39208,MS,DELETED,24,7,Yes,Yes,7/31/2021
+40019,Checkers,2860 E Paris Ave SE,Fast Food Restaurant,Grand Rapids,US,49512,MI,ACTIVE,25,8,Yes,Yes,12/13/2021
+40020,Rally's,2424 E State Road 44,Fast Food Restaurant,Shelbyville,US,46176,IN,ACTIVE,30,11,Yes,Yes,5/14/2021
+40021,Checkers,1611 Broadway,Fast Food,Brooklyn,US,11207,NY,DELETED,27,6,Yes,Yes,5/28/2021
+40022,Checkers,1720 Walton Way,Fast Food Restaurants,Augusta,US,30904,GA,ACTIVE,22,15,Yes,Yes,12/24/2021
+40023,Checkers,17620 Grand River Ave,Fast Food Restaurant,Detroit,US,48227,MI,DELETED,32,12,Yes,Yes,5/29/2021
+40024,Little Q Hot Pot,196 Massachusetts Ave,Fast Food Restaurants,Arlington,US,2474,MA,DELETED,39,8,Yes,Yes,9/26/2021
+40025,McDonald's,1224 State St,Fast Food,Schenectady,US,12304,NY,ACTIVE,28,13,Yes,Yes,7/30/2021
+40026,McDonald's,1232 Ulster Ave,Fast Food Restaurant,Kingston,US,12401,NY,ACTIVE,25,9,Yes,Yes,9/22/2021
+40027,McDonald's,1188 Avenue of The Americas,Fast Food Restaurant,New York,US,10036,NY,ACTIVE,22,10,Yes,Yes,1/8/2021
+40028,McDonald's,114 Delancey St,Fast Food Restaurant,New York,US,10002,NY,ACTIVE,25,8,Yes,Yes,6/22/2021
+40029,McDonald's,1050 Front St,Fast Food Restaurants,Uniondale,US,11553,NY,ACTIVE,20,12,Yes,Yes,1/27/2021
+40030,McDonald's,105 Jericho Tpke,Fast Food Restaurant,Jericho,US,11753,NY,ACTIVE,37,11,Yes,Yes,1/19/2021
+40031,McDonald's,105 Jericho Tpke,Fast Food,Jericho,US,11753,NY,ACTIVE,21,15,Yes,Yes,1/19/2021
+40032,McDonald's,106 Wolf Rd,Fast Food Restaurants,Albany,US,12205,NY,ACTIVE,30,5,Yes,Yes,12/27/2021
+40033,McDonald's,101 E 170th St,Fast Food,Bronx,US,10452,NY,ACTIVE,35,9,Yes,Yes,5/28/2021
+40034,McDonald's,103 Brookview Dr,Fast Food,Schenectady,US,12303,NY,ACTIVE,32,13,Yes,Yes,8/1/2021
+40035,McDonald's,1028 Mckinley Pkwy,Fast Food Restaurants,Buffalo,US,14220,NY,ACTIVE,30,9,Yes,Yes,12/20/2021
+40036,McDonald's,10 Main St,Fast Food Restaurants,Tonawanda,US,14150,NY,ACTIVE,31,9,Yes,Yes,9/1/2021
+40037,McDonald's,300 Mishawum Rd,Fast Food,Woburn,US,1801,MA,ACTIVE,37,14,Yes,Yes,1/8/2021
+40038,McDonald's,1190 Providence Rd,Fast Food Restaurant,Whitinsville,US,1588,MA,ACTIVE,40,12,Yes,Yes,2/13/2021
+40039,McDonald's,212 Main St,Fast Food,Wilmington,US,1887,MA,ACTIVE,29,11,Yes,Yes,10/19/2021
+40040,McDonald's,44 E Main St,Fast Food,Webster,US,1570,MA,REJECTED,24,6,Yes,Yes,12/11/2021
+40041,McDonald's,789 Main St,Fast Food,Waltham,US,2451,MA,ACTIVE,29,7,Yes,Yes,10/31/2021
+40042,McDonald's,20 Main St,Fast Food Restaurant,Townsend,US,1469,MA,ACTIVE,26,8,Yes,Yes,3/8/2021
+40043,McDonald's,595 Main St,Fast Food Restaurant,Walpole,US,2081,MA,ACTIVE,37,7,Yes,Yes,11/1/2021
+40044,McDonald's,282 Winthrop St,Fast Food,Taunton,US,2780,MA,ACTIVE,25,11,Yes,Yes,5/23/2021
+40045,McDonald's,660 Liberty St,Fast Food,Springfield,US,1104,MA,ACTIVE,39,5,Yes,Yes,10/28/2021
+40046,McDonald's,360 Main St,Fast Food Restaurants,Springfield,US,1105,MA,ACTIVE,25,6,Yes,Yes,11/30/2021
+40047,McDonald's,2392 Main St,Fast Food Restaurants,Springfield,US,1107,MA,ACTIVE,29,12,Yes,Yes,10/15/2021
+40048,McDonald's,1402 Allen St,Fast Food Restaurant,Springfield,US,1118,MA,DELETED,32,14,Yes,Yes,2/25/2021
+40049,McDonald's,1610 Boston Rd,Fast Food Restaurants,Springfield,US,1129,MA,ACTIVE,35,10,Yes,Yes,1/23/2021
+40050,McDonald's,59 W Main St,Fast Food Restaurants,Spencer,US,1562,MA,ACTIVE,23,5,Yes,Yes,6/25/2021
+40051,McDonald's,59 W Main St,Fast Food,Spencer,US,1562,MA,ACTIVE,23,12,Yes,Yes,6/26/2021
+40052,Five Guys,1433 SW 107th Ave,Fast Food Restaurant,Miami,US,33174,FL,ACTIVE,24,7,Yes,Yes,2/22/2021
+40053,Taco Bell,1601 W Kirby St,Fast Food Restaurant and Mexican Restaurant,Wylie,US,75098,TX,ACTIVE,24,7,Yes,Yes,10/21/2021
+40054,Taco Bell,7425 S Broadway Ave,Fast Food Restaurant,Tyler,US,75703,TX,ACTIVE,20,14,Yes,Yes,6/16/2021
+40055,Burger King,100 Business Loop 70 E,Fast Food Restaurants,Columbia,US,65203,MO,DELETED,26,11,Yes,Yes,5/7/2021
+40056,Wendy's,615 Martin Luther King Jr Blvd,Fast Food Restaurant and Burger Joint,Savannah,US,31401,GA,ACTIVE,40,8,Yes,Yes,2/16/2021
+40057,Wendy's,1123 Roswell Rd,Fast Food Restaurant and Burger Joint,Marietta,US,30062,GA,ACTIVE,28,10,Yes,Yes,6/30/2021
+40058,Wendy's,273 Keys Ferry St,Fast Food Restaurants,McDonough,US,30253,GA,ACTIVE,38,12,Yes,Yes,8/26/2021
+40059,Wendy's,1117 W Spring St,Fast Food Restaurant,Monroe,US,30655,GA,ACTIVE,29,8,Yes,Yes,2/21/2021
+40060,Wendy's,430 S Belair Rd,Fast Food Restaurants,Augusta,US,30907,GA,ACTIVE,29,10,Yes,Yes,7/6/2021
+40061,Wendy's,2341 N Columbia St,Fast Food Restaurant,Milledgeville,US,31061,GA,ACTIVE,31,11,Yes,Yes,12/30/2021
+40062,Wendy's,260 Cooper Rd,Fast Food Restaurant and Burger Joint,Loganville,US,30052,GA,DELETED,24,11,Yes,Yes,9/18/2021
+40063,Wendy's,4331 Atlanta Hwy,Fast Food Restaurant,Loganville,US,30052,GA,DELETED,27,14,Yes,Yes,7/17/2021
+40064,Wendy's,3015 Panola Rd,Fast Food Restaurant,Lithonia,US,30038,GA,DELETED,21,8,Yes,Yes,11/27/2021
+40065,Burger King,184 Endicott St,Fast food restaurants,Danvers,US,1923,MA,ACTIVE,22,10,Yes,Yes,6/22/2021
+40066,Boston Road Pizza,1291 Boston Rd,Fast Food Restaurants,Springfield,US,1119,MA,ACTIVE,36,15,Yes,Yes,7/11/2021
+40067,McDonald's,6134 State Route 14,Fast Food Restaurant,Ravenna,US,44266,OH,ACTIVE,23,14,Yes,Yes,5/27/2021
+40068,Boston Market,4402 Little Rd,Fast Food Restaurant,Arlington,US,76016,TX,ACTIVE,28,10,Yes,Yes,10/14/2021
+40069,D'Angelo Grilled Sandwiches,15 Highland Ave,Fast Food Restaurants,Attleboro,US,2703,MA,ACTIVE,22,6,Yes,Yes,12/2/2021
+40070,Burger King,2992 Jamacha Rd,Fast Food,El Cajon,US,92019,CA,ACTIVE,39,12,Yes,Yes,9/15/2021
+40071,Boston Market,706 Fletcher Pkwy,Fast Food Restaurants,El Cajon,US,92020,CA,ACTIVE,29,14,Yes,Yes,11/7/2021
+40072,Boston Market,706 Fletcher Pkwy,Fast Food Restaurant,El Cajon,US,92020,CA,ACTIVE,37,8,Yes,Yes,5/6/2021
+40073,Burger King,822 N Johnson Ave,Fast food restaurants,El Cajon,US,92020,CA,DELETED,24,8,Yes,Yes,8/3/2021
+40074,Nino's Pizzarama,2819 Easton Rd,Fast Food Restaurants,Willow Grove,US,19090,PA,ACTIVE,32,13,Yes,Yes,11/3/2021
+40075,Carl's Jr,8924 Sierra Ave,Fast Food Restaurant,Fontana,US,92335,CA,ACTIVE,22,9,Yes,Yes,7/25/2021
+40076,Carl's Jr,18025 Ventura Blvd,Fast Food,Encino,US,91316,CA,ACTIVE,38,8,Yes,Yes,7/16/2021
+40077,Burger King,242 N El Camino Real,Fast food restaurants,Encinitas,US,92024,CA,ACTIVE,28,6,Yes,Yes,2/19/2021
+40078,Carl's Jr,9002 Firestone Blvd,Fast Food Restaurant,Downey,US,90241,CA,ACTIVE,31,8,Yes,Yes,12/1/2021
+40079,Carl's Jr,9110 Imperial Hwy,Fast Food Restaurants,Downey,US,90242,CA,ACTIVE,33,5,Yes,Yes,12/17/2021
+40080,Filippi's Pizza Grotto,962 Garnet Ave,Fast Food Restaurants,San Diego,US,92109,CA,ACTIVE,20,9,Yes,Yes,8/2/2021
+40081,Burger King,7011 Barker Cypress Rd,Fast food restaurants,Cypress,US,77433,TX,ACTIVE,40,7,Yes,Yes,7/25/2021
+40082,Burger King,7011 Barker Cypress Rd,Fast Food Restaurant and Burger Joint,Cypress,US,77433,TX,ACTIVE,26,8,Yes,Yes,4/24/2021
+40083,Boston Market,2180 Contra Costa Blvd,Fast Food Restaurant,Pleasant Hill,US,94523,CA,ACTIVE,23,7,Yes,Yes,6/4/2021
+40084,Jack in the Box,3035 Castro Valley Blvd,Fast Food,Castro Valley,US,94546,CA,DELETED,39,6,Yes,Yes,8/29/2021
+40085,Round Table Pizza,4302 Moorpark Ave,Fast Food,San Jose,US,95129,CA,ACTIVE,38,8,Yes,Yes,10/21/2021
+40086,El Pollo Loco,1751 S Alameda St,Fast Food Restaurants,Compton,US,90220,CA,ACTIVE,29,13,Yes,Yes,1/29/2021
+40087,Arby's,2244 Otay Lakes Rd,Fast Food Restaurant,Chula Vista,US,91915,CA,ACTIVE,29,5,Yes,Yes,11/29/2021
+40088,Burger King,962 East Ave,Fast food restaurants,Chico,US,95926,CA,ACTIVE,27,15,Yes,Yes,5/14/2021
+40089,In-N-Out Burger,1170 W Branch St,Fast Food Restaurants,Arroyo Grande,US,93420,CA,DELETED,30,10,Yes,Yes,1/13/2021
+40090,Copper Oven Artisan Pizza,73196 Highway 111,Fast Food Restaurants,Palm Desert,US,92260,CA,ACTIVE,23,13,Yes,Yes,9/22/2021
+40091,Carl's Jr,20900 Roscoe Blvd,Fast Food Restaurant,Canoga Park,US,91304,CA,ACTIVE,24,7,Yes,Yes,12/6/2021
+40092,McDonald's,1760 41st Ave,Fast Food Restaurant,Capitola,US,95010,CA,ACTIVE,38,6,Yes,Yes,8/21/2021
+40093,Carl's Jr,401 Las Posas Rd,Fast Food Restaurant,Camarillo,US,93010,CA,ACTIVE,25,5,Yes,Yes,8/11/2021
+40094,Del Taco,2871 Lenwood Rd,"Fast Food Restaurant, Mexican Restaurant, and Taco Place",Barstow,US,92311,CA,DELETED,34,5,Yes,Yes,9/6/2021
+40095,Del Taco,12690 Ramona Blvd,Fast Food Restaurant,Baldwin Park,US,91706,CA,ACTIVE,23,15,Yes,Yes,2/16/2021
+40096,Little Caesars Pizza,1210 N Hacienda Blvd,Fast Food,La Puente,US,91744,CA,ACTIVE,37,15,Yes,Yes,1/14/2021
+40097,McDonald's,562 N Main St,Fast Food Restaurant,Bishop,US,93514,CA,ACTIVE,27,6,Yes,Yes,11/6/2021
+40098,McDonald's,1310 E Lamar St,Fast Food Restaurants,Americus,US,31709,GA,ACTIVE,21,8,Yes,Yes,7/15/2021
+40099,Burger King,2009 E Greenville St,Fast Food Restaurant,Anderson,US,29621,SC,ACTIVE,22,5,Yes,Yes,4/17/2021
+40100,Carl's Jr,2521 W Commonwealth Ave,Fast Food Restaurant,Alhambra,US,91803,CA,ACTIVE,36,8,Yes,Yes,2/18/2021
+40101,Sbarro,3450 Wrightsboro Rd Ste 2340,Fast Food Restaurants,Augusta,US,30909,GA,ACTIVE,32,14,Yes,Yes,10/29/2021
+40102,Casey's General Store,810 Oak Ave,Fast Food,Neoga,US,62447,IL,DELETED,34,14,Yes,Yes,11/7/2021
+40103,Casey's General Store,701 S Van Buren St,Fast Food,Newton,US,62448,IL,ACTIVE,32,12,Yes,Yes,2/5/2021
+40104,Chipotle Mexican Grill,9175 De Soto Ave,Fast Food Restaurants,Chatsworth,US,91311,CA,ACTIVE,22,14,Yes,Yes,7/1/2021
+40105,McDonald's,328 N Main St,Fast Food Restaurants,Cedartown,US,30125,GA,ACTIVE,27,12,Yes,Yes,8/9/2021
+40106,Burger King,3025 Main St,Fast food restaurants,Glastonbury,US,6033,CT,ACTIVE,20,5,Yes,Yes,9/11/2021
+40107,Boston Market,2834 Main St,"American Restaurant, Sandwich Place, and Fast Food Restaurant",Glastonbury,US,6033,CT,ACTIVE,40,6,Yes,Yes,6/3/2021
+40108,McDonald's,605 E Broadway St,Fast Food Restaurant,Campbellsville,US,42718,KY,ACTIVE,25,6,Yes,Yes,2/12/2021
+40109,SUBWAY,1602 E Broadway St,Fast Food Restaurant,Campbellsville,US,42718,KY,ACTIVE,31,12,Yes,Yes,5/29/2021
+40110,Burger King,1475 Holiday Ln,Fast food restaurants,Fairfield,US,94534,CA,ACTIVE,20,14,Yes,Yes,5/13/2021
+40111,Fat Patty's,1442 Winchester Ave,Fast Food Restaurants,Ashland,US,41101,KY,ACTIVE,28,9,Yes,Yes,8/21/2021
+40112,Dairy Queen,12759 Us Route 60,Fast Food Restaurants,Ashland,US,41102,KY,ACTIVE,27,10,Yes,Yes,6/9/2021
+40113,Pizza Hut,1439 S US Highway 1,Fast Food Restaurants,Fort Pierce,US,34950,FL,ACTIVE,22,5,Yes,Yes,8/4/2021
+40114,Arby's,12915 Cortez Blvd,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Brooksville,US,34613,FL,ACTIVE,34,11,Yes,Yes,8/31/2021
+40115,McDonald's,11671 Se Federal Hwy,Fast Food Restaurant,Hobe Sound,US,33455,FL,ACTIVE,29,11,Yes,Yes,11/25/2021
+40116,Culver's,8792 Navarre Pkwy,Burger Joint and Fast Food Restaurant Gulf Breeze,Navarre,US,32566,FL,ACTIVE,39,14,Yes,Yes,2/13/2021
+40117,Burger King,825 E 49th St,Fast food restaurants,Hialeah,US,33013,FL,ACTIVE,33,13,Yes,Yes,4/29/2021
+40118,Pizza Hut,2750 W 68th St Ste 104,Fast Food,Hialeah,US,33016,FL,ACTIVE,33,8,Yes,Yes,12/24/2021
+40119,Dairy Queen,36172 Hwy 27,Fast Food,Haines City,US,33844,FL,ACTIVE,28,8,Yes,Yes,2/4/2021
+40120,Pizza Hut,52 Tuscan Way Ste 208,Fast Food Restaurants,Saint Augustine,US,32092,FL,ACTIVE,38,15,Yes,Yes,7/11/2021
+40121,KFC,1232 Providence Blvd,Fast Food Restaurant,Deltona,US,32725,FL,ACTIVE,30,9,Yes,Yes,5/23/2021
+40122,McDonald's,2370 US Highway 331 S,Fast food restaurants,DeFuniak Springs,US,32435,FL,ACTIVE,38,10,Yes,Yes,11/17/2021
+40123,SONIC Drive-In,1508 US Highway 331 S,Fast Food Restaurant,DeFuniak Springs,US,32435,FL,ACTIVE,37,14,Yes,Yes,10/1/2021
+40124,Whataburger,2434 US Highway 331 S,Fast Food Restaurants,DeFuniak Springs,US,32435,FL,ACTIVE,24,7,Yes,Yes,5/13/2021
+40125,Arby's,9975 Corkscrew Rd,"Fast Food Restaurant, Sandwich Place, and American Restaurant",Estero,US,33928,FL,ACTIVE,33,7,Yes,Yes,7/30/2021
+40126,Chick-Fil-A,519 Brandon Town Center Mall,Fast Food Restaurants,Brandon,US,33511,FL,ACTIVE,35,7,Yes,Yes,5/16/2021
+40127,Taco Bell,865 S Main St,Fast Food Restaurant,Belle Glade,US,33430,FL,ACTIVE,36,13,Yes,Yes,11/28/2021
+40128,McDonald's,339 US Highway 27 S,Fast Food Restaurant,Avon Park,US,33825,FL,ACTIVE,30,8,Yes,Yes,7/1/2021
+40129,Pizza Hut,1498 US Highway 17 N,Fast Food Restaurants,Wauchula,US,33873,FL,ACTIVE,35,12,Yes,Yes,9/21/2021
+40130,Firehouse Subs,1608 W Orange Blossom Trl,Fast Food,Apopka,US,32712,FL,ACTIVE,31,7,Yes,Yes,1/22/2021
+40131,Burger King,460 Airways Ave,Fast Food Restaurant,Savannah,US,31408,GA,ACTIVE,21,12,Yes,Yes,9/24/2021
+40132,SONIC Drive-In,1510 N Summit St,Fast Food Restaurant,Arkansas City,US,67005,KS,ACTIVE,24,7,Yes,Yes,10/28/2021
+40133,McDonald's,2613 Central Ave,Fast Food Restaurants,Dodge City,US,67801,KS,ACTIVE,27,14,Yes,Yes,7/30/2021
+40134,Burger King,2501 Se Delaware Ave,Fast Food Restaurants,Ankeny,US,50021,IA,ACTIVE,32,9,Yes,Yes,4/16/2021
+40135,Burger King,2501 Se Delaware Ave,Fast Food Restaurant,Ankeny,US,50021,IA,ACTIVE,26,6,Yes,Yes,4/25/2021
+40136,Cupie's Drive-In,134 W Kamehameha Ave,Fast Food Restaurants,Kahului,US,96732,HI,DELETED,21,6,Yes,Yes,4/10/2021
+40137,Chick-Fil-A,230 S Duff Ave,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Ames,US,50010,IA,ACTIVE,23,12,Yes,Yes,5/5/2021
+40138,Burger King,2817 E 13th St,Fast Food Restaurants,Ames,US,50010,IA,DELETED,35,12,Yes,Yes,3/9/2021
+40139,Burger King,1020 E 1st St,Fast Food Restaurant,Ankeny,US,50021,IA,ACTIVE,28,10,Yes,Yes,12/25/2021
+40140,Pizza Hut,2450 S Vista Ave,Fast Food Restaurants,Boise,US,83705,ID,DELETED,36,12,Yes,Yes,7/5/2021
+40141,Burger King,1807 N Church St,Fast food restaurants,Burlington,US,27217,NC,ACTIVE,26,5,Yes,Yes,11/2/2021
+40142,Dairy Queen,2535 18th St,Fast Food Restaurants,Bettendorf,US,52722,IA,ACTIVE,25,13,Yes,Yes,10/22/2021
+40143,McDonald's,9320 Steele Creek Rd,Fast Food Restaurant,Charlotte,US,28273,NC,ACTIVE,23,15,Yes,Yes,3/23/2021
+40144,Burger King,9640 Mariposa Rd,Fast Food Restaurant,Hesperia,US,92344,CA,DELETED,22,13,Yes,Yes,7/10/2021
+40145,Burger King,17021 Main St,Fast food restaurants,Hesperia,US,92345,CA,ACTIVE,31,11,Yes,Yes,1/29/2021
+40146,Del Taco,14485 Inglewood Ave,Fast Food Restaurant,Hawthorne,US,90250,CA,ACTIVE,32,5,Yes,Yes,1/12/2021
+40147,Del Taco,18070 Chatsworth St,Fast Food Restaurant,Granada Hills,US,91344,CA,ACTIVE,36,7,Yes,Yes,2/28/2021
+40148,Arby's,1200 Forrest Ave,Fast Food Restaurant,Dover,US,19904,DE,ACTIVE,26,14,Yes,Yes,6/24/2021
+40149,Arby's,1200 Forrest Ave,Fast Food Restaurants,Dover,US,19904,DE,ACTIVE,20,8,Yes,Yes,3/5/2021
+40150,McDonald's,300 Mccarter Rd,Fast Food Restaurants,Fountain Inn,US,29644,SC,ACTIVE,21,6,Yes,Yes,9/19/2021
+40151,Burger King,2040 Cumberland St,Fast Food Restaurant,Lebanon,US,17042,PA,ACTIVE,28,8,Yes,Yes,6/21/2021
+40152,Chipotle Mexican Grill,1451 Quentin Rd,Fast Food Restaurants,Lebanon,US,17042,PA,ACTIVE,28,6,Yes,Yes,4/30/2021
+40153,Taco Bell,609 Naamans Rd,Fast Food Restaurants,Claymont,US,19703,DE,ACTIVE,35,8,Yes,Yes,4/22/2021
+40154,Pizza Hut,5800 W Chandler Blvd,Fast Food,Chandler,US,85226,AZ,ACTIVE,22,5,Yes,Yes,7/10/2021
+40155,McDonald's,1205 Commons Cir,Fast Food Restaurants,Plover,US,54467,WI,ACTIVE,23,5,Yes,Yes,6/14/2021
+40156,Arby's,1099 S Blackhawk St,"Restaurant, Fast Food Restaurant, and Sandwich Place",Aurora,US,80012,CO,ACTIVE,31,10,Yes,Yes,5/21/2021
+40157,Primo's Pizza,406 N Pershing St,Fast Food Restaurants,Energy,US,62933,IL,DELETED,26,13,Yes,Yes,11/2/2021
+40158,Simple Simon's Pizza,201 Lee Town Rd,Fast Food Restaurants,Pea Ridge,US,72751,AR,ACTIVE,26,10,Yes,Yes,6/14/2021
+40159,Arby's,3067 Wilma Rudolph Blvd,Fast Food Restaurants,Clarksville,US,37040,TN,ACTIVE,33,11,Yes,Yes,12/27/2021
+40160,Dairy Queen,1635 W State St,Fast Food Restaurants,Alliance,US,44601,OH,ACTIVE,31,7,Yes,Yes,11/17/2021
+40161,CASA Mexicana,5311 Highway 5 N Ste 240,Fast Food Restaurants,Bryant,US,72022,AR,ACTIVE,22,6,Yes,Yes,5/31/2021
+40162,Burger King,3001 N Reynolds Rd,Fast Food Restaurant,Bryant,US,72022,AR,ACTIVE,33,13,Yes,Yes,5/15/2021
+40163,Burger King,2275 E Butler Ave,Fast Food Restaurants,Flagstaff,US,86004,AZ,ACTIVE,28,10,Yes,Yes,2/1/2021
+40164,Arby's,1818 6th St,Fast Food Restaurants,Brookings,US,57006,SD,ACTIVE,29,15,Yes,Yes,8/10/2021
+40165,Arby's,1818 6th St,"Fast Food Restaurant, Sandwich Place, and American Restaurant",Brookings,US,57006,SD,ACTIVE,26,11,Yes,Yes,4/19/2021
+40166,KFC,3051 W Apache Trl,Fast Food,Apache Junction,US,85120,AZ,ACTIVE,22,6,Yes,Yes,2/16/2021
+40167,Burger King,Route 52 Airport Square,Fast Food Restaurants,Bluefield,US,24701,WV,ACTIVE,29,15,Yes,Yes,8/23/2021
+40168,Bob Evans,102 Harper Park Dr,Fast Food Restaurants,Beckley,US,25801,WV,ACTIVE,33,13,Yes,Yes,5/5/2021
+40169,Pizza Hut,1912 Harper Rd,Fast Food Restaurants,Beckley,US,25801,WV,ACTIVE,32,13,Yes,Yes,2/14/2021
+40170,Players Grill,1855 Deerfield Rd,Fast Food Restaurants,Highland Park,US,60035,IL,DELETED,20,13,Yes,Yes,9/16/2021
+40171,Burger King,3 Clarksburg Rd,Fast Food Restaurants,Buckhannon,US,26201,WV,ACTIVE,40,6,Yes,Yes,3/29/2021
+40172,Arby's,302 Yellowstone Ave,Fast Food,Cody,US,82414,WY,ACTIVE,21,8,Yes,Yes,3/15/2021
+40173,Burger King,1902 Mountain View Dr,Fast Food Restaurant,Cody,US,82414,WY,ACTIVE,20,15,Yes,Yes,8/3/2021
+40174,Pizza Hut,5320 Yellowstone Rd,Fast Food Restaurants,Cheyenne,US,82009,WY,ACTIVE,22,7,Yes,Yes,7/17/2021
+40175,Back Yard Burgers,1100 Poplar View Ln N,Fast Food Restaurants,Collierville,US,38017,TN,ACTIVE,39,13,Yes,Yes,9/18/2021
+40176,Arby's,967 W Poplar Ave,Fast Food Restaurants,Collierville,US,38017,TN,ACTIVE,37,8,Yes,Yes,4/24/2021
+40177,Arby's,2607 Cy Ave,Fast Food Restaurants,Casper,US,82604,WY,ACTIVE,35,11,Yes,Yes,9/5/2021
+40178,Arby's,1860 N Germantown Pkwy,Fast Food Restaurants,Cordova,US,38016,TN,ACTIVE,39,12,Yes,Yes,9/30/2021
+40179,SUBWAY,310 W Grand Xing,Fast Food Restaurants,Mobridge,US,57601,SD,ACTIVE,40,14,Yes,Yes,6/7/2021
+40180,Arby's,1502 N Clinton St,Fast Food,Defiance,US,43512,OH,ACTIVE,21,13,Yes,Yes,4/9/2021
+40181,Pizza Hut,1133 N Clinton St,Fast Food Restaurants,Defiance,US,43512,OH,ACTIVE,37,6,Yes,Yes,6/4/2021
+40182,Pizza Hut,11 W Dayton Yellow Springs Rd,Fast Food Restaurants,Fairborn,US,45324,OH,ACTIVE,34,9,Yes,Yes,3/21/2021
+40183,Arby's,1205 6th Ave Se,Fast Food,Aberdeen,US,57401,SD,DELETED,33,10,Yes,Yes,4/24/2021
+40184,McDonald's,2260 Highway 394,Fast Food Restaurant,Blountville,US,37617,TN,ACTIVE,24,7,Yes,Yes,7/6/2021
+40185,McDonald's,214 Carolina Pottery Dr,Fast food restaurants,Blountville,US,37617,TN,ACTIVE,40,15,Yes,Yes,4/1/2021
+40186,Arby's,1313 Highway 394,Fast Food Restaurant,Blountville,US,37617,TN,ACTIVE,38,5,Yes,Yes,7/28/2021
+40187,Arby's,1313 Highway 394,Fast Food,Blountville,US,37617,TN,ACTIVE,30,6,Yes,Yes,10/22/2021
+40188,Burger King,100 Prince Royal Dr,Fast Food Restaurants,Berea,US,40403,KY,ACTIVE,20,15,Yes,Yes,6/27/2021
+40189,Italo's Pizza,16311 State Route 267,Fast Food Restaurants,East Liverpool,US,43920,OH,ACTIVE,33,9,Yes,Yes,7/16/2021
+40190,Dairy Queen,900 W 8th St,Ice Cream Shop and Fast Food Restaurant,East Liverpool,US,43920,OH,ACTIVE,27,14,Yes,Yes,11/19/2021
+40191,Hunan Gardens,723 Saratoga Ave,Fast Food Restaurants,Lima,US,45804,OH,ACTIVE,39,12,Yes,Yes,3/19/2021
+40192,Burger King,23777 Us Route 23,Fast Food Restaurant,Circleville,US,43113,OH,ACTIVE,36,12,Yes,Yes,9/1/2021
+40193,Burger King,414 Water St,Fast food restaurants,Chardon,US,44024,OH,ACTIVE,21,14,Yes,Yes,2/10/2021
+40194,Burger King,2005 S Main St,Fast Food Restaurant,Bellefontaine,US,43311,OH,ACTIVE,34,8,Yes,Yes,8/26/2021
+40195,Burger King,2000 E Edgerton Rd,Fast Food Restaurants,Broadview Heights,US,44147,OH,ACTIVE,36,6,Yes,Yes,12/20/2021
+40196,Burger King,10037 Broadview Rd,Fast Food Restaurant,Broadview Heights,US,44147,OH,ACTIVE,34,12,Yes,Yes,10/29/2021
+40197,Toppers Pizza,475 Chippewa Mall Dr,Fast Food Restaurants,Chippewa Falls,US,54729,WI,ACTIVE,22,10,Yes,Yes,11/29/2021
+40198,Hernandez Mexican Restaurant,212 S 7th St,Fast Food Restaurants,Delavan,US,53115,WI,DELETED,38,10,Yes,Yes,12/9/2021
+40199,Culver's,1931 E Geneva St,Fast Food Restaurant,Delavan,US,53115,WI,ACTIVE,20,9,Yes,Yes,11/7/2021
+40200,Burger King,2680 Market St,Fast food restaurants,Christiansburg,US,24073,VA,ACTIVE,37,15,Yes,Yes,8/31/2021
+40201,Arby's,2650 Market St,Fast Food Restaurant,Christiansburg,US,24073,VA,DELETED,22,7,Yes,Yes,5/30/2021
+40202,Burger King,2680 Market St,Fast Food Restaurant,Christiansburg,US,24073,VA,ACTIVE,40,9,Yes,Yes,10/1/2021
+40203,Burger King,1004 S Main St,Fast food restaurants,Farmville,US,23901,VA,ACTIVE,36,5,Yes,Yes,3/2/2021
+40204,Glorious Foods Gourmet to go & Catering,1709 Allied Ln,Fast Food Restaurants,Charlottesville,US,22903,VA,DELETED,26,11,Yes,Yes,10/20/2021
+40205,Little Caesars Pizza,1835 Ne Division St,Fast Food Restaurants,Gresham,US,97030,OR,ACTIVE,27,11,Yes,Yes,11/1/2021
+40206,Arby's,9575 Dyer St,Fast Food Restaurants,El Paso,US,79924,TX,ACTIVE,37,8,Yes,Yes,10/8/2021
+40207,Pizza Hut,2202 N Richmond Rd,Fast Food Restaurants,Wharton,US,77488,TX,ACTIVE,33,7,Yes,Yes,7/12/2021
+40208,Burger King,3120 W Fm 120,Fast Food Restaurants,Denison,US,75020,TX,ACTIVE,23,9,Yes,Yes,6/24/2021
+40209,McDonald's,1705 Expressway 83,Fast Food Restaurants,Penitas,US,78576,TX,ACTIVE,21,13,Yes,Yes,8/6/2021
+40210,Burger King,2280 E Garrison St,Fast Food Restaurant,Eagle Pass,US,78852,TX,ACTIVE,27,10,Yes,Yes,3/8/2021
+40211,Chick-Fil-A,2207 Veterans Blvd,Fast Food Restaurants,Del Rio,US,78840,TX,ACTIVE,35,15,Yes,Yes,1/9/2021
+40212,Burger King,2208 Highway 21 E,Fast Food Restaurant,Bryan,US,77803,TX,ACTIVE,26,11,Yes,Yes,9/13/2021
+40213,Schlotzsky's,1216 W Henderson St,Fast Food Restaurants,Cleburne,US,76033,TX,DELETED,39,13,Yes,Yes,1/11/2021
+40214,Arby's,801 Ne Alsbury Blvd,"Restaurant, Fast Food Restaurant, and Sandwich Place",Burleson,US,76028,TX,DELETED,30,11,Yes,Yes,1/12/2021
+40215,Chick-Fil-A,1105 N Burleson Blvd,Fast Food Restaurant,Burleson,US,76028,TX,ACTIVE,30,5,Yes,Yes,1/3/2021
+40216,Burger King,5301 Bellaire Blvd,Fast Food Restaurant and Burger Joint,Bellaire,US,77401,TX,ACTIVE,30,15,Yes,Yes,6/16/2021
+40217,Arby's,3824 S Clack St,Fast Food Restaurant,Abilene,US,79606,TX,DELETED,24,9,Yes,Yes,10/22/2021
+40218,Golden Chick,2305 N Saint Marys St,American Restaurant and Fast Food Restaurant,Beeville,US,78102,TX,ACTIVE,33,13,Yes,Yes,9/6/2021
+40219,Dairy Queen,90571 Main St,Fast Food Restaurants,Pettus,US,78146,TX,ACTIVE,31,15,Yes,Yes,3/10/2021
+40220,Pizza Hut,210 W Sinton St,Fast Food Restaurants,Sinton,US,78387,TX,DELETED,26,13,Yes,Yes,9/3/2021
+40221,Chicken Express,96 Cannan Dr,Fast Food Restaurants,Angleton,US,77515,TX,ACTIVE,33,8,Yes,Yes,3/21/2021
+40222,McDonald's,1890 Bethlehem Pike,Fast Food Restaurant and Playground,Flourtown,US,19031,PA,DELETED,20,13,Yes,Yes,3/20/2021
+40223,Arby's,707 Washington Ave,Fast Food,Chestertown,US,21620,MD,ACTIVE,36,10,Yes,Yes,2/2/2021
+40224,Arby's,707 Washington Ave,Fast Food Restaurant,Chestertown,US,21620,MD,ACTIVE,24,5,Yes,Yes,12/6/2021
+40225,Big House Burgers,1201 E Main St,Fast food restaurants,Alice,US,78332,TX,ACTIVE,20,14,Yes,Yes,10/27/2021
+40226,Arby's,8586 S Orange Blossom Trl,Fast Food,Orlando,US,32809,FL,ACTIVE,22,15,Yes,Yes,5/1/2021
+40227,McDonald's,6385 Dobbin Rd,Fast food restaurants,Columbia,US,21045,MD,ACTIVE,28,10,Yes,Yes,6/26/2021
+40228,Burger King,6241 Washington Blvd,Fast Food Restaurant,Elkridge,US,21075,MD,DELETED,37,6,Yes,Yes,8/20/2021
+40229,Arby's,505 S Oxford Valley Rd,Fast Food,Fairless Hills,US,19030,PA,DELETED,30,6,Yes,Yes,11/17/2021
+40230,Arby's,505 S Oxford Valley Rd,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Fairless Hills,US,19030,PA,ACTIVE,33,15,Yes,Yes,2/9/2021
+40231,Arby's,888 E Main St,Fast Food Restaurants,Ephrata,US,17522,PA,DELETED,25,11,Yes,Yes,11/6/2021
+40232,Pizza Hut,1247 Theatre Dr,Fast Food Restaurants,Ottumwa,US,52501,IA,ACTIVE,30,8,Yes,Yes,3/31/2021
+40233,Arby's,470 Cummings St,Fast Food,Abingdon,US,24210,VA,ACTIVE,30,11,Yes,Yes,5/3/2021
+40234,Arby's,470 Cummings St,Fast Food Restaurants,Abingdon,US,24210,VA,ACTIVE,22,6,Yes,Yes,4/11/2021
+40235,Jerry's Subs & Pizza,6308 Richmond Hwy,"Sandwich Place, Pizza Place, and Fast Food Restaurant",Alexandria,US,22306,VA,DELETED,40,15,Yes,Yes,7/1/2021
+40236,Jerry's Subs & Pizza,6308 Richmond Hwy,Fast Food Restaurants,Alexandria,US,22306,VA,ACTIVE,22,13,Yes,Yes,4/26/2021
+40237,Fox's Pizza Den,1104 W High St,Fast Food Restaurants,Ebensburg,US,15931,PA,ACTIVE,24,14,Yes,Yes,2/3/2021
+40238,Burger King,285 Jamesway Rd,Fast Food Restaurants,Ebensburg,US,15931,PA,ACTIVE,30,15,Yes,Yes,1/6/2021
+40239,Arby's,4105 Peach St,Fast Food Restaurant,Erie,US,16509,PA,DELETED,21,13,Yes,Yes,7/30/2021
+40240,Arby's,3720 Pine Ave,"American Restaurant, Fast Food Restaurant, and Sandwich Place",Erie,US,16504,PA,ACTIVE,23,9,Yes,Yes,9/17/2021
+40241,Burger King,4868 Houston Rd,Fast Food Restaurant,Florence,US,41042,KY,ACTIVE,34,13,Yes,Yes,9/13/2021
+40242,Burger King,105 S 3rd St,Fast Food Restaurant and Burger Joint,Coopersburg,US,18036,PA,DELETED,21,13,Yes,Yes,3/13/2021
+40243,Pizza Pub,1306 E Main St,Fast Food Restaurants,Clarion,US,16214,PA,ACTIVE,22,11,Yes,Yes,9/12/2021
+40244,Grande Italian Restaurant,4205 Washington Rd,Fast Food Restaurants,Canonsburg,US,15317,PA,ACTIVE,21,6,Yes,Yes,12/24/2021
+40245,Pizza Hut,453 Valley Brook Rd Ste 200,Fast Food Restaurants,Canonsburg,US,15317,PA,DELETED,35,11,Yes,Yes,9/18/2021
+40246,Burger King,1208 W Front St,Fast Food Restaurants,Berwick,US,18603,PA,ACTIVE,24,13,Yes,Yes,10/18/2021
+40247,Pizza Hut,4960 Library Rd,Fast Food Restaurants,Bethel Park,US,15102,PA,DELETED,25,14,Yes,Yes,9/6/2021
+40248,Burger King,9 Hudson Hollow Rd,Fast Food Restaurant,Frankfort,US,40601,KY,ACTIVE,39,15,Yes,Yes,1/15/2021
+40249,Pizza Hut,1110 N 90th St,Fast Food,Seattle,US,98103,WA,ACTIVE,40,9,Yes,Yes,5/11/2021
+40250,Arni's Crawfordsville,114 W Wabash Ave,Fast Food,Crawfordsville,US,47933,IN,ACTIVE,26,5,Yes,Yes,10/12/2021
+40251,Arby's,1518 S Washington St,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Crawfordsville,US,47933,IN,ACTIVE,28,15,Yes,Yes,6/20/2021
+40252,Pizza Hut,3921 S 76th St,Fast Food Restaurants,Milwaukee,US,53220,WI,ACTIVE,35,8,Yes,Yes,8/2/2021
+40253,Arctic Circle,1075 N Fairfield Rd,Fast Food Restaurants,Layton,US,84041,UT,ACTIVE,35,7,Yes,Yes,4/3/2021
+40254,Pizza Hut,1607 Elkhart Rd,Fast Food Restaurants,Goshen,US,46526,IN,ACTIVE,26,9,Yes,Yes,2/11/2021
+40255,Arby's,909 Hyatt St,Fast Food Restaurants,Gaffney,US,29341,SC,DELETED,36,15,Yes,Yes,1/7/2021
+40256,Burger King,2460 Mountain City Hwy,Fast Food Restaurants,Elko,US,89801,NV,DELETED,40,7,Yes,Yes,3/30/2021
+40257,Pizza Barn,2598 Idaho St,Fast Food Restaurants,Elko,US,89801,NV,ACTIVE,37,12,Yes,Yes,8/9/2021
+40258,McDonald's,313 Middle Country Rd,Fast food restaurants,Coram,US,11727,NY,ACTIVE,31,13,Yes,Yes,8/18/2021
+40259,Jerry's Subs & Pizza,9711 Fort Meade Rd,Fast Food Restaurants,Laurel,US,20707,MD,ACTIVE,22,5,Yes,Yes,9/12/2021
+40260,Burger King,778 Brookway Blvd,Fast Food Restaurant,Brookhaven,US,39601,MS,ACTIVE,29,14,Yes,Yes,6/14/2021
+40261,Rico's Pizza & Subs,92 W Market St,Fast Food Restaurants,Corning,US,14830,NY,ACTIVE,24,13,Yes,Yes,3/18/2021
+40262,B's Pizza,2 Wicks Blvd,Fast Food Restaurants,Corning,US,14830,NY,ACTIVE,37,13,Yes,Yes,6/15/2021
+40263,Burger King,1104 Sunrise Hwy,Fast food restaurants,Amityville,US,11701,NY,ACTIVE,35,13,Yes,Yes,6/14/2021
+40264,McDonald's,425 E Main St,Fast Food Restaurant,Pickens,US,29671,SC,DELETED,22,8,Yes,Yes,2/14/2021
+40265,McDonald's,106 Garner Rd,Fast Food,Spartanburg,US,29303,SC,ACTIVE,26,11,Yes,Yes,6/28/2021
+40266,Burger King,2619 Brandermill Blvd,Fast Food Restaurant and Burger Joint,Gambrills,US,21054,MD,DELETED,37,5,Yes,Yes,5/10/2021
+40267,McDonald's,613 E 4th Ave,Fast Food Restaurant,Red Springs,US,28377,NC,ACTIVE,22,9,Yes,Yes,10/20/2021
+40268,Domino's Pizza,104 School St,Fast Food Restaurants,Glen Cove,US,11542,NY,ACTIVE,28,9,Yes,Yes,9/6/2021
+40269,Dairy Queen,2789 Interstate Highway 20,Ice Cream Shop and Fast Food Restaurant,Van,US,75790,TX,ACTIVE,35,15,Yes,Yes,10/10/2021
+40270,Dairy Queen,2789 Interstate Highway 20,Fast Food Restaurants,Van,US,75790,TX,ACTIVE,35,12,Yes,Yes,10/16/2021
+40271,Dairy Queen,111 State Highway 239 E,Fast Food Restaurants,Tivoli,US,77990,TX,ACTIVE,36,11,Yes,Yes,8/9/2021
+40272,Dairy Queen,1301 N Dickinson Dr,Fast Food,Rusk,US,75785,TX,DELETED,23,11,Yes,Yes,10/10/2021
+40273,Dairy Queen,300 S Main St,Fast Food Restaurants,Borger,US,79007,TX,ACTIVE,31,5,Yes,Yes,11/11/2021
+40274,Dairy Queen,900 Highway 80,Fast Food Restaurant,San Marcos,US,78666,TX,DELETED,29,12,Yes,Yes,10/30/2021
+40275,Dairy Queen,849 E Commerce St,Fast Food Restaurant,San Antonio,US,78205,TX,ACTIVE,35,12,Yes,Yes,4/11/2021
+40276,Dairy Queen,2282 SE Military Dr,Ice Cream Shop and Fast Food Restaurant,San Antonio,US,78223,TX,ACTIVE,36,12,Yes,Yes,11/30/2021
+40277,Hardee's,2188 Great Neck Sq,Fast Food Restaurants,Virginia Beach,US,23454,VA,ACTIVE,30,11,Yes,Yes,2/3/2021
+40278,Hardee's,505 W 21st St,Fast Food Restaurants,Norfolk,US,23517,VA,ACTIVE,29,9,Yes,Yes,12/18/2021
+40279,Hardee's,5000 W Broad St,Fast Food Restaurant,Richmond,US,23230,VA,DELETED,39,7,Yes,Yes,2/5/2021
+40280,Hardee's,3011 Hershberger Rd NW,Fast Food Restaurant,Roanoke,US,24017,VA,ACTIVE,32,6,Yes,Yes,10/6/2021
+40281,Hardee's,850 London Blvd,Fast Food Restaurant,Portsmouth,US,23704,VA,ACTIVE,29,6,Yes,Yes,12/15/2021
+40282,Hardee's,1032 E Main St,Fast Food Restaurant,Pulaski,US,24301,VA,ACTIVE,27,7,Yes,Yes,10/22/2021
+40283,Hardee's,8405 Hampton Blvd,Fast Food Restaurants,Norfolk,US,23505,VA,ACTIVE,38,9,Yes,Yes,3/21/2021
+40284,Hardee's,430 Denbigh Blvd,Fast Food Restaurant,Newport News,US,23608,VA,ACTIVE,39,10,Yes,Yes,2/20/2021
+40285,Hardee's,3750 Candlers Mountain Rd,Fast Food Restaurant,Lynchburg,US,24502,VA,ACTIVE,30,15,Yes,Yes,7/19/2021
+40286,Hardee's,501 S Hicks St,Fast Food Restaurant,Lawrenceville,US,23868,VA,ACTIVE,32,14,Yes,Yes,3/1/2021
+40287,Hardee's,2231 Langhorne Rd,Fast Food Restaurant,Lynchburg,US,24501,VA,ACTIVE,31,8,Yes,Yes,9/25/2021
+40288,Port of Subs,2310 E Overland Rd,Fast Food Restaurant,Meridian,US,83642,ID,ACTIVE,35,8,Yes,Yes,11/15/2021
+40289,Port of Subs,3635 S Rainbow Blvd,Fast Food,Las Vegas,US,89103,NV,ACTIVE,27,12,Yes,Yes,1/15/2021
+40290,Port of Subs,8552 W Lake Mead Blvd,Fast Food,Las Vegas,US,89128,NV,ACTIVE,25,6,Yes,Yes,5/22/2021
+40291,Port of Subs,9101 W Sahara Ave,Fast Food,Las Vegas,US,89117,NV,ACTIVE,26,13,Yes,Yes,5/25/2021
+40292,Port of Subs,35 Dayton Valley Rd,Fast Food Restaurants,Dayton,US,89403,NV,ACTIVE,29,10,Yes,Yes,9/2/2021
+40293,Taco Bell,45201 Schoenherr Rd,Fast Food Restaurant,Utica,US,48315,MI,ACTIVE,20,15,Yes,Yes,9/19/2021
+40294,Taco Bell,3860 S State Rd,Fast Food Restaurants,Ann Arbor,US,48108,MI,ACTIVE,24,14,Yes,Yes,1/25/2021
+40295,Taco Bell,9640 Hageman Rd,Fast Food Restaurants,Bakersfield,US,93312,CA,DELETED,37,11,Yes,Yes,5/29/2021
+40296,Dairy Queen,6255 Central Ave,Fast Food Restaurants,Portage,US,46368,IN,ACTIVE,40,9,Yes,Yes,8/7/2021
+40297,Dairy Queen,6801 Highway 41 N,Fast Food Restaurant,Evansville,US,47711,IN,ACTIVE,28,9,Yes,Yes,12/10/2021
+40298,Dairy Queen,3826 English Ave,Ice Cream Shop and Fast Food Restaurant Christian Park,Indianapolis,US,46201,IN,ACTIVE,21,7,Yes,Yes,1/20/2021
+40299,Dairy Queen,3303 Lincolnway E,Fast Food Restaurant and Ice Cream Shop,Mishawaka,US,46544,IN,ACTIVE,29,11,Yes,Yes,10/2/2021
+40300,Dairy Queen,4830 University Dr,Fast Food Restaurant,Evansville,US,47712,IN,ACTIVE,36,7,Yes,Yes,7/11/2021
+40301,Dairy Queen,309 State Road 13 N,Fast Food Restaurants,North Manchester,US,46962,IN,ACTIVE,20,9,Yes,Yes,12/30/2021
+40302,Dairy Queen,3302 Kamer Miller Rd,Fast Food Restaurants,New Albany,US,47150,IN,ACTIVE,33,15,Yes,Yes,7/6/2021
+40303,Taco Bell,32940 Michigan Ave,Fast Food Restaurant,Wayne,US,48184,MI,ACTIVE,26,15,Yes,Yes,10/5/2021
+40304,Dairy Queen,913 Charleston Ave,Fast Food Restaurants,Mattoon,US,61938,IL,ACTIVE,29,7,Yes,Yes,10/17/2021
+40305,Dairy Queen,5636 W Irving Park Rd,Fast Food,Chicago,US,60634,IL,ACTIVE,34,6,Yes,Yes,7/16/2021
+40306,Dairy Queen,685 W Main St,Fast Food Restaurant,El Paso,US,61738,IL,ACTIVE,28,10,Yes,Yes,4/2/2021
+40307,Dairy Queen,601 E Oak St,Fast Food Restaurant,Mahomet,US,61853,IL,DELETED,29,6,Yes,Yes,6/29/2021
+40308,McDonald's,35 White St,Fast Food,Cambridge,US,2140,MA,ACTIVE,34,8,Yes,Yes,9/26/2021
+40309,Milk Street Cafe,50 Milk St,Fast Food Restaurants,Boston,US,2109,MA,ACTIVE,24,6,Yes,Yes,1/14/2021
+40310,McDonald's,340 Longwood Ave,Fast Food Restaurants,Boston,US,2115,MA,DELETED,34,7,Yes,Yes,10/15/2021
+40311,Taco Bell,2306 Dix Hwy,Fast Food Restaurant and Mexican Restaurant,Lincoln Park,US,48146,MI,ACTIVE,23,6,Yes,Yes,10/21/2021
+40312,Taco Bell,1108 Lincoln Way East,Fast Food,Massillon,US,44646,OH,ACTIVE,30,11,Yes,Yes,2/11/2021
+40313,Taco Bell,705 York Road,Fast Food,Kings Mountain,US,28086,NC,ACTIVE,32,12,Yes,Yes,7/6/2021
+40314,Dairy Queen,401 S 2nd St,Fast Food Restaurants,Pekin,US,61554,IL,ACTIVE,26,13,Yes,Yes,9/26/2021
+40315,Dairy Queen,4204 N Sheridan Rd,Fast Food Restaurants,Peoria,US,61614,IL,ACTIVE,35,6,Yes,Yes,2/12/2021
+40316,Pei Wei,1084 S Gilbert Suite 601,Fast Food Restaurant,Gilbert,US,85296,AZ,ACTIVE,36,6,Yes,Yes,6/6/2021
+40317,Dairy Queen,401 S 6th St,Fast Food Restaurant,Petersburg,US,62675,IL,ACTIVE,38,7,Yes,Yes,6/15/2021
+40318,Dairy Queen,4605 E Maryland St,Fast Food Restaurants,Decatur,US,62521,IL,ACTIVE,25,14,Yes,Yes,11/27/2021
+40319,Dairy Queen,3106 3 Oaks Rd,Fast Food Restaurants,Cary,US,60013,IL,ACTIVE,31,15,Yes,Yes,1/2/2021
+40320,Dairy Queen,316 N Main St,Fast Food Restaurants,Monmouth,US,61462,IL,ACTIVE,20,13,Yes,Yes,3/17/2021
+40321,Dairy Queen,201 E Deyoung St,Fast Food Restaurant,Marion,US,62959,IL,DELETED,30,5,Yes,Yes,12/9/2021
+40322,Dairy Queen,201 E Deyoung St,Fast Food Restaurants,Marion,US,62959,IL,ACTIVE,20,9,Yes,Yes,2/24/2021
+40323,W.G. Grinders,1453 Grandview Ave,Fast Food Restaurants,Columbus,US,43212,OH,ACTIVE,22,15,Yes,Yes,1/19/2021
+40324,Foster's Freeze,4967 Eagle Rock Blvd,"Ice Cream Shop, Fast Food Restaurant, and Burger Joint",Los Angeles,US,90041,CA,ACTIVE,28,6,Yes,Yes,8/21/2021
+40325,Caseys Carry Out Pizza,120 N Division Ave,Fast Food,Polo,US,61064,IL,ACTIVE,31,15,Yes,Yes,7/2/2021
+40326,Tastee Freez,526 E Carl Albert Pkwy,Fast Food Restaurants,McAlester,US,74501,OK,ACTIVE,32,14,Yes,Yes,6/1/2021
+40327,Taco Bueno,945 W Memorial Rd,Fast Food Restaurant,Oklahoma City,US,73114,OK,ACTIVE,28,12,Yes,Yes,8/27/2021
+40328,McDonald's,1737 N University Ave,Fast Food Restaurants,Lafayette,US,70507,LA,ACTIVE,22,7,Yes,Yes,10/3/2021
+40329,McDonald's,249 E State St,Fast Food Restaurants,Montrose,US,48457,MI,ACTIVE,34,12,Yes,Yes,7/16/2021
+40330,Wendy's,8010 Sudley Rd,Fast Food Restaurant,Manassas,US,20109,VA,ACTIVE,31,10,Yes,Yes,7/26/2021
+40331,Jimmy John's,6385 Monroe St,Fast Food Restaurant,Sylvania,US,43560,OH,ACTIVE,32,5,Yes,Yes,9/12/2021
+40332,Subway,1211 Joe Frank Harris Pkwy SE,Fast Food Restaurants,Cartersville,US,30120,GA,ACTIVE,20,13,Yes,Yes,3/12/2021
+40333,Subway,192 Lovvorn Ave,Fast Food Restaurants,Bowdon,US,30108,GA,ACTIVE,31,15,Yes,Yes,8/30/2021
+40334,Dairy Queen,1185 Gray Hwy,Fast Food Restaurants,Macon,US,31211,GA,ACTIVE,40,7,Yes,Yes,8/30/2021
+40335,Dairy Queen,3156 Frontage Rd,Fast Food Restaurants,Gainesville,US,30504,GA,DELETED,37,11,Yes,Yes,6/7/2021
+40336,Dairy Queen,1224 Watson Blvd,Fast Food Restaurants,Warner Robins,US,31093,GA,ACTIVE,31,10,Yes,Yes,10/31/2021
+40337,Subway,1637 Liberty Expy SE,Fast Food Restaurants,Albany,US,31705,GA,ACTIVE,40,6,Yes,Yes,8/22/2021
+40338,Subway,1103 N Westover Blvd,Fast Food Restaurant,Albany,US,31707,GA,ACTIVE,30,10,Yes,Yes,12/15/2021
+40339,Dairy Queen,119 Atlanta St,Fast Food Restaurants,Barnesville,US,30204,GA,ACTIVE,30,13,Yes,Yes,2/11/2021
+40340,Dairy Queen,1035 Edgefield Rd,Fast Food Restaurant,North Augusta,US,29860,SC,ACTIVE,36,5,Yes,Yes,3/14/2021
+40341,Dairy Queen,1035 Edgefield Rd,Ice Cream Shop and Fast Food Restaurant,North Augusta,US,29860,SC,ACTIVE,29,6,Yes,Yes,4/28/2021
+40342,Hardee's,2500 Wilde Lake Blvd,Fast Food,Pensacola,US,32526,FL,ACTIVE,22,15,Yes,Yes,7/17/2021
+40343,Hardee's,3439 Highway 77,Fast Food Restaurants,Panama City,US,32405,FL,DELETED,38,5,Yes,Yes,7/5/2021
+40344,Dairy Queen,3473 Clairmont Rd NE,Fast Food,Atlanta,US,30319,GA,ACTIVE,34,6,Yes,Yes,3/12/2021
+40345,Dairy Queen,2781 Chamblee Tucker Rd,Fast Food,Atlanta,US,30341,GA,DELETED,31,6,Yes,Yes,3/9/2021
+40346,Dairy Queen,256 N Main St,Fast Food Restaurant,Jonesboro,US,30236,GA,ACTIVE,27,8,Yes,Yes,10/29/2021
+40347,Dairy Queen,410 North Ave NE,Fast Food,Atlanta,US,30308,GA,ACTIVE,32,8,Yes,Yes,8/17/2021
+40348,Hardee's,498 Busch Dr,Fast Food Restaurants,Jacksonville,US,32218,FL,ACTIVE,31,8,Yes,Yes,11/19/2021
+40349,Hardee's,1500 Mayport Rd,Fast Food Restaurants,Atlantic Beach,US,32233,FL,DELETED,25,15,Yes,Yes,12/26/2021
+40350,Hardee's,822 Beal Pkwy NW,Fast food restaurants,Fort Walton Beach,US,32547,FL,ACTIVE,28,7,Yes,Yes,2/12/2021
+40351,Hardee's,5425 Cotton St,Fast Food Restaurants,Graceville,US,32440,FL,ACTIVE,27,12,Yes,Yes,8/8/2021
+40352,Hardee's,1098 W International Speedway Blvd,Fast Food Restaurant,DeLand,US,32720,FL,ACTIVE,23,5,Yes,Yes,6/8/2021
+40353,Hardee's,7237 Milford Harrington Hwy,Fast food restaurants,Harrington,US,19952,DE,ACTIVE,30,14,Yes,Yes,4/26/2021
+40354,Hardee's,651 W Washington St,Fast Food Restaurant,Chattahoochee,US,32324,FL,DELETED,20,5,Yes,Yes,6/23/2021
+40355,Hardee's,401 S Thompson St,Fast Food Restaurant,Springdale,US,72764,AR,ACTIVE,24,10,Yes,Yes,1/23/2021
+40356,Papa John's Pizza,4513 Williamson Rd NW,"Pizza Place, Fast Food Restaurant, and Italian Restaurant Preston Park",Roanoke,US,24012,VA,ACTIVE,39,15,Yes,Yes,11/6/2021
+40357,Burger King,631 Hogan Rd,Fast Food Restaurant,Bangor,US,4401,ME,ACTIVE,22,11,Yes,Yes,9/19/2021
+40358,Papa John's Pizza,1783 Roanoke Rd,"Pizza Place, Italian Restaurant, and Fast Food Restaurant",Daleville,US,24083,VA,ACTIVE,22,13,Yes,Yes,9/10/2021
+40359,Pizza Hut,22 S State Ave,Fast Food Restaurants,Dickinson,US,58601,ND,ACTIVE,40,15,Yes,Yes,11/2/2021
+40360,Burger King,758 W Dixie Dr,Fast Food Restaurant,Asheboro,US,27205,NC,DELETED,33,9,Yes,Yes,3/7/2021
+40361,Cook Out,4505 Kester Mill Rd,Fast Food Restaurant,Winston-Salem,US,27103,NC,ACTIVE,22,15,Yes,Yes,6/2/2021
+40362,SUBWAY¬Æ,1641 S Jefferson Ave,Fast Food Restaurants,Saint Louis,US,63104,MO,ACTIVE,39,15,Yes,Yes,8/6/2021
+40363,Krispy Krunchy Chicken,1051 W Maple Ave,Fast Food Restaurants,Eunice,US,70535,LA,DELETED,24,6,Yes,Yes,6/13/2021
+40364,Hardee's/red Burrito,1305 Veterans Blvd,Fast Food Restaurant,Festus,US,63028,MO,ACTIVE,33,6,Yes,Yes,1/14/2021
+40365,Arby's,13963 New Halls Ferry Rd,Fast Food,Florissant,US,63033,MO,ACTIVE,26,11,Yes,Yes,10/1/2021
+40366,Lacey's On The Hill Restaurant,1701 Lacey St,Fast Food Restaurants,Cape Girardeau,US,63701,MO,ACTIVE,33,5,Yes,Yes,3/16/2021
+40367,Dairy Queen,2724 Colonel Glenn Hwy,Fast Food Restaurants,Fairborn,US,45324,OH,ACTIVE,20,9,Yes,Yes,4/26/2021
+40368,Dairy Queen,260 E Cuyahoga Falls Ave,Fast Food Restaurants,Akron,US,44310,OH,ACTIVE,33,12,Yes,Yes,9/10/2021
+40369,Dairy Queen,235 N Broadway St,Ice Cream Shop and Fast Food Restaurant,New Philadelphia,US,44663,OH,ACTIVE,38,8,Yes,Yes,8/10/2021
+40370,Dairy Queen,2163 Southgate Pkwy,Ice Cream Shop and Fast Food Restaurant,Cambridge,US,43725,OH,ACTIVE,37,7,Yes,Yes,3/17/2021
+40371,Arby's,2399 David H Mcleod Blvd,Fast Food Restaurants,Florence,US,29501,SC,ACTIVE,27,11,Yes,Yes,4/19/2021
+40372,Arby's,1420 S Irby St,Fast Food Restaurant,Florence,US,29505,SC,ACTIVE,36,7,Yes,Yes,11/28/2021
+40373,Burger King,35 Manchester Rd,Fast Food Restaurant and Burger Joint,Derry,US,3038,NH,ACTIVE,39,12,Yes,Yes,6/26/2021
+40374,McDonald's,195 Woodstock Ave,Fast Food Restaurant,Rutland,US,5701,VT,ACTIVE,24,10,Yes,Yes,12/30/2021
+40375,McDonald's,1155 N Hill Field Rd,Fast Food,Layton,US,84041,UT,ACTIVE,32,15,Yes,Yes,9/25/2021
+40376,McDonald's,41 Jayview Dr,Fast Food Restaurants,Enosburg Falls,US,5450,VT,ACTIVE,23,10,Yes,Yes,7/29/2021
+40377,Pizza Pro,6096 Highway 49,Fast Food Restaurants,West Helena,US,72390,AR,ACTIVE,23,5,Yes,Yes,1/18/2021
+40378,McDonald's,155 Dorset St,Fast Food Restaurant,South Burlington,US,5403,VT,DELETED,25,6,Yes,Yes,2/19/2021
+40379,McDonald's,155 Dorset St,Fast Food,South Burlington,US,5403,VT,ACTIVE,20,9,Yes,Yes,11/28/2021
+40380,McDonald's,1125 Shelburne Rd,Fast Food Restaurants,South Burlington,US,5403,VT,ACTIVE,23,15,Yes,Yes,8/25/2021
+40381,McDonald's,71 Upper Main St,Fast Food Restaurant,Essex Junction,US,5452,VT,ACTIVE,24,7,Yes,Yes,3/31/2021
+40382,McDonald's,44 S Park Dr,Fast Food Restaurant,Colchester,US,5446,VT,ACTIVE,40,11,Yes,Yes,5/13/2021
+40383,Hardee's,101 Princeton Blvd,Fast Food Restaurant,Adairsville,US,30103,GA,ACTIVE,40,8,Yes,Yes,6/29/2021
+40384,McDonald's,916 W North Temple,Fast Food Restaurant Fairpark,Salt Lake City,US,84116,UT,ACTIVE,27,8,Yes,Yes,6/22/2021
+40385,McDonald's,909 W Riverdale Rd,Fast Food Restaurants,Ogden,US,84405,UT,DELETED,27,6,Yes,Yes,8/17/2021
+40386,McDonald's,211 W 1230 N,Fast Food Restaurant,Provo,US,84604,UT,DELETED,20,14,Yes,Yes,7/5/2021
+40387,McDonald's,819 N Sullivan Rd,Fast Food Restaurants,Veradale,US,99037,WA,ACTIVE,28,9,Yes,Yes,3/31/2021
+40388,McDonald's,902 S Main St,Fast Food Restaurants,Brigham City,US,84302,UT,ACTIVE,29,9,Yes,Yes,5/31/2021
+40389,McDonald's,505 W Yelm Ave,Fast Food Restaurants,Yelm,US,98597,WA,ACTIVE,32,5,Yes,Yes,7/26/2021
+40390,McDonald's,505 W Yelm Ave,Fast Food Restaurant,Yelm,US,98597,WA,ACTIVE,30,7,Yes,Yes,6/8/2021
+40391,Dairy Queen,2740 Laurel Park Rd,Fast Food Restaurants,Clarksburg,US,26301,WV,ACTIVE,31,9,Yes,Yes,1/31/2021
+40392,McDonald's,1600 E Chestnut Ave,Fast Food Restaurants,Yakima,US,98901,WA,ACTIVE,35,12,Yes,Yes,12/17/2021
+40393,McDonald's,5910 Summitview Ave,Fast Food Restaurant,Yakima,US,98908,WA,ACTIVE,20,10,Yes,Yes,10/23/2021
+40394,McDonald's,5910 Summitview Ave,Fast Food,Yakima,US,98908,WA,ACTIVE,26,6,Yes,Yes,12/28/2021
+40395,McDonald's,814 S 9th Ave,Fast Food Restaurants,Walla Walla,US,99362,WA,ACTIVE,29,13,Yes,Yes,4/27/2021
+40396,McDonald's,1601 Pacific Ave,Fast Food Restaurant,Woodland,US,98674,WA,ACTIVE,21,9,Yes,Yes,12/2/2021
+40397,Cottage Inn Pizza,615 E Grand River Ave,Fast Food Restaurants,East Lansing,US,48823,MI,ACTIVE,39,8,Yes,Yes,11/25/2021
+40398,Little Caesars Pizza,3476 Whittier Blvd,Fast Food,Los Angeles,US,90023,CA,ACTIVE,30,9,Yes,Yes,4/3/2021
+40399,Burger King,1084 S State Rd,Fast Food Restaurants,Davison,US,48423,MI,ACTIVE,34,6,Yes,Yes,10/5/2021
+40400,Culver's,818 N 12th St,Fast food restaurants,Murray,US,42071,KY,ACTIVE,23,12,Yes,Yes,12/17/2021
+40401,Papa John's Pizza,2510 Frederica St,Fast Food Restaurants,Owensboro,US,42301,KY,ACTIVE,30,5,Yes,Yes,10/3/2021
+40402,Domino's Pizza,6 Orient Way,Fast Food Restaurant,Rutherford,US,7070,NJ,ACTIVE,31,14,Yes,Yes,9/26/2021
+40403,Runza,13425 Q St,Fast Food Restaurant,Omaha,US,68137,NE,ACTIVE,28,13,Yes,Yes,3/15/2021
+40404,Pizza Hut,1303 Bridge St,Fast Food Restaurants,Charlevoix,US,49720,MI,ACTIVE,30,7,Yes,Yes,11/28/2021
+40405,Runza,816 Galvin Rd S,Fast Food Restaurant,Bellevue,US,68005,NE,ACTIVE,30,9,Yes,Yes,12/15/2021
+40406,Runza,640 N Park Ave,Fast Food Restaurant,Fremont,US,68025,NE,ACTIVE,34,11,Yes,Yes,2/26/2021
+40407,Runza,814 S 13th St,Fast Food Restaurant,Norfolk,US,68701,NE,ACTIVE,25,5,Yes,Yes,9/17/2021
+40408,Runza,141 S Chestnut St,Fast Food Restaurant,Wahoo,US,68066,NE,ACTIVE,38,5,Yes,Yes,6/5/2021
+40409,Eudici's Pizza,6893 Gratiot Rd,Fast Food Restaurants,Saginaw,US,48609,MI,ACTIVE,23,12,Yes,Yes,12/27/2021
+40410,Domino's Pizza,538 Livingston St,Fast Food Restaurants,Norwood,US,7648,NJ,ACTIVE,31,11,Yes,Yes,4/9/2021
+40411,Domino's Pizza,141 Us Highway 46,Fast Food Restaurants,Budd Lake,US,7828,NJ,ACTIVE,31,11,Yes,Yes,1/6/2021
+40412,Sbarro,4402 Baldwin Rd,Fast Food Restaurants,Auburn Hills,US,48326,MI,ACTIVE,38,8,Yes,Yes,4/3/2021
+40413,McDonald's,1313 N State St,Fast Food Restaurant,Belvidere,US,61008,IL,ACTIVE,25,15,Yes,Yes,2/8/2021
+40414,McDonald's,681 N 12th St,Fast Food Restaurants,Breese,US,62230,IL,ACTIVE,40,8,Yes,Yes,10/15/2021
+40415,McDonald's,285 N Front St,Fast Food Restaurants,Braidwood,US,60408,IL,DELETED,33,14,Yes,Yes,4/16/2021
+40416,McDonald's,100 N Bolingbrook Dr,Fast Food Restaurant,Bolingbrook,US,60440,IL,ACTIVE,34,15,Yes,Yes,3/1/2021
+40417,McDonald's,1180 N Kinzie Ave,Fast Food Restaurant,Bradley,US,60915,IL,ACTIVE,29,5,Yes,Yes,3/17/2021
+40418,McDonald's,575 Main St NW,Fast Food Restaurants,Bourbonnais,US,60914,IL,ACTIVE,40,14,Yes,Yes,10/20/2021
+40419,Pizza Hut,1224 M 89,Fast Food Restaurants,Plainwell,US,49080,MI,ACTIVE,36,9,Yes,Yes,7/24/2021
+40420,McDonald's,6401 Cermak Rd,Fast Food Restaurant,Berwyn,US,60402,IL,ACTIVE,40,12,Yes,Yes,10/10/2021
+40421,McDonald's,7181 Cermak Rd,Fast food restaurants,Berwyn,US,60402,IL,ACTIVE,31,12,Yes,Yes,7/22/2021
+40422,McDonald's,240 W Chrysler Dr,Fast Food Restaurant,Belvidere,US,61008,IL,ACTIVE,39,14,Yes,Yes,5/11/2021
+40423,McDonald's,7301 Westfield Plaza Dr,Fast Food,Belleville,US,62223,IL,ACTIVE,27,8,Yes,Yes,1/3/2021
+40424,McDonald's,1023 N Lake St,Fast Food,Aurora,US,60506,IL,ACTIVE,31,11,Yes,Yes,12/9/2021
+40425,McDonald's,188 Fox Valley Ctr,Fast Food,Aurora,US,60504,IL,ACTIVE,35,11,Yes,Yes,1/20/2021
+40426,Arby's,2250 US Highway 23 S,Fast Food,Alpena,US,49707,MI,ACTIVE,26,14,Yes,Yes,8/17/2021
+40427,Dairy Queen,1001 S State Ave,Fast Food Restaurants,Alpena,US,49707,MI,ACTIVE,39,14,Yes,Yes,6/10/2021
+40428,Pizza Hut,3000 Maplewood Dr,Fast Food Restaurants,Sulphur,US,70663,LA,ACTIVE,39,5,Yes,Yes,1/4/2021
+40429,McDonald's,1402 SE 3rd St,Fast Food Restaurants,Aledo,US,61231,IL,ACTIVE,23,10,Yes,Yes,3/18/2021
+40430,McDonald's,500 E Algonquin Rd,Fast Food,Algonquin,US,60102,IL,ACTIVE,40,8,Yes,Yes,12/26/2021
+40431,McDonald's,125 S Randall Rd,Fast Food Restaurant,Algonquin,US,60102,IL,ACTIVE,30,13,Yes,Yes,5/1/2021
+40432,Taco Cabana,202 S Loop 336 W,Fast Food Restaurant,Conroe,US,77304,TX,ACTIVE,32,13,Yes,Yes,4/28/2021
+40433,McDonald's,148 Caldwell Blvd,Fast Food Restaurants,Nampa,US,83651,ID,ACTIVE,22,9,Yes,Yes,11/19/2021
+40434,Arby's,6464 Siegen Ln,Fast Food Restaurants,Baton Rouge,US,70809,LA,ACTIVE,26,9,Yes,Yes,9/8/2021
+40435,McDonald's,178 S Eagle Rd,Fast Food Restaurants,Eagle,US,83616,ID,ACTIVE,30,15,Yes,Yes,11/4/2021
+40436,McDonald's,1335 S Washington Ave,Fast Food Restaurant,Emmett,US,83617,ID,ACTIVE,25,14,Yes,Yes,7/12/2021
+40437,Subway,1750 Rostraver Rd,Fast Food Restaurants,Belle Vernon,US,15012,PA,ACTIVE,33,9,Yes,Yes,6/8/2021
+40438,Subway,2693 Brodhead Rd,Fast Food Restaurants,Aliquippa,US,15001,PA,ACTIVE,20,8,Yes,Yes,3/24/2021
+40439,McDonald's,2900 Wendell Blvd,Fast Food Restaurants,Wendell,US,27591,NC,ACTIVE,31,11,Yes,Yes,7/6/2021
+40440,McDonald's,2900 W 5th St,Fast Food,Lumberton,US,28358,NC,ACTIVE,35,5,Yes,Yes,11/18/2021
+40441,Round Table Pizza,44204 10th St W,Fast Food,Lancaster,US,93534,CA,DELETED,22,15,Yes,Yes,11/14/2021
+40442,Pizza Hut,44836 10th St W,Fast Food,Lancaster,US,93534,CA,ACTIVE,40,13,Yes,Yes,5/31/2021
+40443,Chicken Express,3820 Lamar Ave,Fast Food Restaurants,Paris,US,75462,TX,DELETED,24,11,Yes,Yes,4/18/2021
+40444,Chicken Express,5100 Davis Blvd,"Fried Chicken Joint, Fast Food Restaurant, and Food",North Richland Hills,US,76180,TX,ACTIVE,23,12,Yes,Yes,7/3/2021
+40445,Chicken Express,904 W Eldorado Pkwy,Fast Food Restaurant,Little Elm,US,75068,TX,ACTIVE,20,15,Yes,Yes,2/27/2021
+40446,Chicken Express,4704 4th St,Fast Food Restaurant,Lubbock,US,79416,TX,ACTIVE,25,6,Yes,Yes,2/20/2021
+40447,Chicken Express,791 Keller Pkwy,Fried Chicken Joint and Fast Food Restaurant,Keller,US,76248,TX,ACTIVE,29,7,Yes,Yes,12/21/2021
+40448,Chicken Express,305 N Rice St,Fast Food Restaurants,Hamilton,US,76531,TX,ACTIVE,20,9,Yes,Yes,9/4/2021
+40449,Chicken Express,1108 N Grand Ave,Fast Food Restaurants,Gainesville,US,76240,TX,ACTIVE,35,15,Yes,Yes,1/7/2021
+40450,Chicken Express,1451 E Main St,Fast Food Restaurants,Eastland,US,76448,TX,ACTIVE,34,5,Yes,Yes,5/23/2021
+40451,Culver's,180 Pioneer Trl,Fast food restaurants,Chaska,US,55318,MN,ACTIVE,40,6,Yes,Yes,2/8/2021
+40452,Culver's,180 Pioneer Trl,"Fast Food Restaurant, Burger Joint, and Ice Cream Shop",Chaska,US,55318,MN,ACTIVE,29,5,Yes,Yes,8/29/2021
+40453,Jimmy John's,1615 County Road 42 W,Fast Food Restaurant,Burnsville,US,55306,MN,ACTIVE,29,5,Yes,Yes,12/28/2021
+40454,McDonald's,595 E Beasley Rd,Fast Food Restaurant,Jackson,US,39206,MS,ACTIVE,33,6,Yes,Yes,6/19/2021
+40455,McDonald's,970 Cedar Lake Rd,Fast food restaurants,Biloxi,US,39532,MS,ACTIVE,31,5,Yes,Yes,12/25/2021
+40456,McDonald's,970 Cedar Lake Rd,Fast Food Restaurant,Biloxi,US,39532,MS,ACTIVE,36,8,Yes,Yes,3/11/2021
+40457,McDonald's,9505 South Blvd,Fast Food Restaurant,Charlotte,US,28273,NC,ACTIVE,24,15,Yes,Yes,11/21/2021
+40458,McDonald's,937 Alabama St,Fast Food Restaurants,Columbus,US,39702,MS,ACTIVE,35,15,Yes,Yes,7/19/2021
+40459,McDonald's,930 Mall Loop Rd,Fast Food Restaurant,High Point,US,27262,NC,ACTIVE,33,11,Yes,Yes,4/20/2021
+40460,Arby's,2707 Bridge Ave,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Albert Lea,US,56007,MN,ACTIVE,28,9,Yes,Yes,10/13/2021
+40461,McDonald's,8305 Creedmoor Rd,Fast Food Restaurant,Raleigh,US,27613,NC,ACTIVE,29,15,Yes,Yes,4/24/2021
+40462,McDonald's,905 Louisiana Ave,Fast Food Restaurant,Libby,US,59923,MT,ACTIVE,34,15,Yes,Yes,10/20/2021
+40463,McDonald's,905 Louisiana Ave,Fast Food Restaurants,Libby,US,59923,MT,ACTIVE,22,14,Yes,Yes,8/24/2021
+40464,Boomer's Drive-In,310 N Samish Way,Fast Food Restaurants,Bellingham,US,98225,WA,ACTIVE,40,9,Yes,Yes,2/12/2021
+40465,Boomer's Drive-In,310 N Samish Way,Fast Food Restaurant,Bellingham,US,98225,WA,ACTIVE,31,5,Yes,Yes,2/7/2021
+40466,McDonald's,6724 Highway 63,Fast Food Restaurant,Moss Point,US,39563,MS,ACTIVE,26,15,Yes,Yes,10/26/2021
+40467,McDonald's,812 Winston Rd,Fast Food Restaurant,Lexington,US,27295,NC,ACTIVE,40,15,Yes,Yes,3/15/2021
+40468,McDonald's,840 S Main St,Fast Food Restaurant,Kernersville,US,27284,NC,ACTIVE,39,7,Yes,Yes,6/13/2021
+40469,McDonald's,822 Wheat Dr,Fast Food Restaurant and Burger Joint,Bozeman,US,59715,MT,ACTIVE,32,13,Yes,Yes,7/10/2021
+40470,McDonald's,822 Wheat Dr,Fast Food,Bozeman,US,59715,MT,ACTIVE,33,15,Yes,Yes,11/7/2021
+40471,McDonald's,717 Conover Blvd W,Fast Food Restaurants,Conover,US,28613,NC,ACTIVE,21,7,Yes,Yes,6/10/2021
+40472,McDonald's,720 E Broadway St,Fast Food Restaurant Heart of Missoula,Missoula,US,59802,MT,ACTIVE,27,9,Yes,Yes,8/26/2021
+40473,McDonald's,710 N Davis Ave,Fast Food Restaurant,Cleveland,US,38732,MS,ACTIVE,38,10,Yes,Yes,12/9/2021
+40474,McDonald's,710 N Davis Ave,Fast Food Restaurants,Cleveland,US,38732,MS,ACTIVE,22,5,Yes,Yes,7/23/2021
+40475,McDonald's,692 Beach Blvd,Fast Food Restaurants,Biloxi,US,39530,MS,ACTIVE,31,15,Yes,Yes,1/24/2021
+40476,McDonald's,65 Goodman Rd W,Fast Food Restaurant,Southaven,US,38671,MS,ACTIVE,38,14,Yes,Yes,8/17/2021
+40477,McDonald's,65 Goodman Rd W,Fast Food Restaurants,Southaven,US,38671,MS,ACTIVE,27,10,Yes,Yes,11/25/2021
+40478,McDonald's,706 College Rd,Fast Food Restaurants,Greensboro,US,27410,NC,DELETED,24,7,Yes,Yes,1/29/2021
+40479,McDonald's,701 Main St,Fast Food Restaurants,Scotland Neck,US,27874,NC,DELETED,34,12,Yes,Yes,10/29/2021
+40480,McDonald's,701 Main St,Fast Food Restaurant,Scotland Neck,US,27874,NC,ACTIVE,29,6,Yes,Yes,3/21/2021
+40481,McDonald's,6779 Raeford Rd,Fast Food Restaurants,Fayetteville,US,28304,NC,ACTIVE,35,7,Yes,Yes,8/9/2021
+40482,McDonald's,6495 Us Highway 93 S,Fast Food Restaurant,Whitefish,US,59937,MT,ACTIVE,37,10,Yes,Yes,2/11/2021
+40483,McDonald's,6225 W Sugar Creek Rd,Fast Food Restaurants,Charlotte,US,28269,NC,ACTIVE,35,6,Yes,Yes,5/9/2021
+40484,McDonald's,6301 Albemarle Rd,Fast Food Restaurant and Burger Joint,Charlotte,US,28212,NC,DELETED,23,5,Yes,Yes,4/20/2021
+40485,McDonald's,601 Jake Alexander Blvd W,Fast Food Restaurant and Gas Station,Salisbury,US,28147,NC,ACTIVE,35,12,Yes,Yes,9/23/2021
+40486,McDonald's,5701 Inman Rd,Fast food restaurants,Greensboro,US,27410,NC,ACTIVE,26,13,Yes,Yes,5/27/2021
+40487,McDonald's,5800 E Wt Harris Blvd,Fast Food Restaurant,Charlotte,US,28215,NC,ACTIVE,20,11,Yes,Yes,8/31/2021
+40488,McDonald's,5800 E Wt Harris Blvd,Fast Food,Charlotte,US,28215,NC,ACTIVE,39,7,Yes,Yes,10/13/2021
+40489,Hot Dog on a Stick,610 Great Mall Dr,Fast Food,Milpitas,US,95035,CA,ACTIVE,22,5,Yes,Yes,12/26/2021
+40490,Hot Dog on a Stick,197 Town Ctr E,Fast Food Restaurants,Santa Maria,US,93454,CA,ACTIVE,23,15,Yes,Yes,5/1/2021
+40491,Hot Dog on a Stick,1689 Arden Way,Fast Food Restaurant,Sacramento,US,95815,CA,ACTIVE,33,9,Yes,Yes,7/15/2021
+40492,Dunkin' Donuts,7602 13th Ave,Fast Food,Brooklyn,US,11228,NY,ACTIVE,40,6,Yes,Yes,4/27/2021
+40493,Dunkin' Donuts,56 Court St,Fast Food,Brooklyn,US,11201,NY,ACTIVE,40,6,Yes,Yes,9/3/2021
+40494,Arby's,401 N Main St,Fast Food,Lexington,US,27292,NC,ACTIVE,32,9,Yes,Yes,10/1/2021
+40495,Burger King,1432 Cotton Grove Rd,Fast Food Restaurant,Lexington,US,27292,NC,DELETED,26,6,Yes,Yes,6/18/2021
+40496,Burger King,401 Lincoln Hwy,Fast Food,Fairview Heights,US,62208,IL,ACTIVE,38,15,Yes,Yes,2/21/2021
+40497,Hardee's,100 Plaza Sq,Fast Food Restaurants,Park Hills,US,63601,MO,ACTIVE,24,8,Yes,Yes,12/12/2021
+40498,Dunkin' Donuts,1309 Fulton St,Fast Food,Brooklyn,US,11216,NY,ACTIVE,24,13,Yes,Yes,12/9/2021
+40499,Dunkin' Donuts,4115 3rd Ave,Fast Food,Bronx,US,10457,NY,ACTIVE,34,10,Yes,Yes,8/8/2021
+40500,Dunkin' Donuts,3732 E Tremont Ave,Fast Food,Bronx,US,10465,NY,ACTIVE,38,11,Yes,Yes,1/25/2021
+40501,Christo's Original,1500 S Main St,Fast Food Restaurants,Lexington,US,27292,NC,ACTIVE,29,11,Yes,Yes,8/3/2021
+40502,Burger King,7197 Charles St,Fast Food Restaurant and Burger Joint,Rockford,US,61112,IL,ACTIVE,39,13,Yes,Yes,7/30/2021
+40503,Burger King,100 Thomas Rd,Fast Food Restaurants,West Monroe,US,71291,LA,ACTIVE,38,15,Yes,Yes,9/8/2021
+40504,Taco Bell,10440 Highland Rd,Fast Food Restaurant,Hartland,US,48353,MI,ACTIVE,29,9,Yes,Yes,11/23/2021
+40505,Burger King,1138 E State St,"Fast Food Restaurant, Playground, and Burger Joint Northeast",Rockford,US,61104,IL,ACTIVE,26,13,Yes,Yes,6/25/2021
+40506,Burger King,421 N 36th St,Fast Food Restaurant,Quincy,US,62301,IL,ACTIVE,26,15,Yes,Yes,1/13/2021
+40507,Burger King,4121 Sauk Trl,Fast Food Restaurant,Richton Park,US,60471,IL,ACTIVE,22,10,Yes,Yes,7/21/2021
+40508,Burger King,600 S Newport Rd,Fast Food,Pontiac,US,61764,IL,ACTIVE,30,14,Yes,Yes,9/4/2021
+40509,Burger King,600 S Newport Rd,Fast Food Restaurant,Pontiac,US,61764,IL,ACTIVE,21,6,Yes,Yes,3/3/2021
+40510,Burger King,10721 Jefferson Ave,Fast Food Restaurant and Burger Joint South Newport News,Newport News,US,23601,VA,ACTIVE,37,13,Yes,Yes,9/14/2021
+40511,Burger King,2901 Court St,Fast Food Restaurants,Pekin,US,61554,IL,ACTIVE,23,14,Yes,Yes,8/25/2021
+40512,Taco Bell,2408 Stringtown Rd,Fast Food,Grove City,US,43123,OH,DELETED,30,9,Yes,Yes,12/10/2021
+40513,Burger King,1 Marquette Ave,Fast Food,Oglesby,US,61348,IL,ACTIVE,22,6,Yes,Yes,4/24/2021
+40514,Burger King,1 Marquette Ave,Fast Food Restaurants,Oglesby,US,61348,IL,ACTIVE,21,11,Yes,Yes,3/6/2021
+40515,Taco Bell,1717 Grass Valley Hwy,Fast Food,Auburn,US,95603,CA,ACTIVE,35,9,Yes,Yes,8/12/2021
+40516,Taco Bell,370 M St,Fast Food Restaurant,Crescent City,US,95531,CA,DELETED,27,14,Yes,Yes,11/23/2021
+40517,Taco Bell,2050 W Main St,Fast Food Restaurant,Turlock,US,95380,CA,ACTIVE,20,11,Yes,Yes,3/7/2021
+40518,Hardee's,1120 W Washington St,Fast Food Restaurants,Marquette,US,49855,MI,ACTIVE,25,11,Yes,Yes,1/21/2021
+40519,Taco Bell,2700 Geer Rd,Fast Food,Turlock,US,95382,CA,ACTIVE,36,7,Yes,Yes,9/28/2021
+40520,Hardee's,1301 S Salisbury Blvd,Fast Food Restaurants,Salisbury,US,21801,MD,ACTIVE,32,13,Yes,Yes,9/30/2021
+40521,Taco Bell,1680 Hilliard Rome Rd,Fast Food,Hilliard,US,43026,OH,ACTIVE,25,11,Yes,Yes,9/20/2021
+40522,Hardee's,718 Nursery Rd,Fast Food Restaurants,Linthicum Heights,US,21090,MD,ACTIVE,25,13,Yes,Yes,9/30/2021
+40523,Taco Bell,4652 Cemetery Rd,Fast Food,Hilliard,US,43026,OH,ACTIVE,27,6,Yes,Yes,12/29/2021
+40524,Burger King,4601 Broadway St,Fast Food Restaurants,Mount Vernon,US,62864,IL,ACTIVE,31,14,Yes,Yes,10/24/2021
+40525,Hardee's,800 Woods Rd,Fast Food Restaurants,Cambridge,US,21613,MD,ACTIVE,39,10,Yes,Yes,3/4/2021
+40526,Taco Bell,1410 Main St,Fast Food Restaurants,Hamilton,US,45013,OH,DELETED,36,9,Yes,Yes,3/8/2021
+40527,Burger King,730 N Walnut St,Fast Food,Mount Carmel,US,62863,IL,ACTIVE,33,9,Yes,Yes,12/28/2021
+40528,Taco Bell,294 S Hamilton Rd,Fast Food Restaurant,Columbus,US,43230,OH,ACTIVE,25,11,Yes,Yes,9/17/2021
+40529,Burger King,1385 Douglas Rd,Fast Food Restaurant,Montgomery,US,60538,IL,ACTIVE,21,5,Yes,Yes,9/12/2021
+40530,Burger King,1385 Douglas Rd,Fast Food,Montgomery,US,60538,IL,ACTIVE,33,14,Yes,Yes,8/11/2021
+40531,Burger King,1130 N Main St,Fast Food,Monmouth,US,61462,IL,ACTIVE,34,9,Yes,Yes,4/20/2021
+40532,Burger King,1130 N Main St,Fast Food Restaurants,Monmouth,US,61462,IL,ACTIVE,23,14,Yes,Yes,1/22/2021
+40533,Subway,449 W Butler Ave,Fast Food Restaurants,Chalfont,US,18914,PA,ACTIVE,38,12,Yes,Yes,11/23/2021
+40534,Burger King,4040 38th Ave,Fast Food Restaurant and Burger Joint,Moline,US,61265,IL,ACTIVE,23,9,Yes,Yes,8/6/2021
+40535,Burger King,1935 N Mannheim Rd,Fast Food Restaurant,Melrose Park,US,60160,IL,ACTIVE,27,9,Yes,Yes,3/15/2021
+40536,Taco Bell,3013 Salem Ave,Fast Food Restaurant and Mexican Restaurant,Dayton,US,45406,OH,ACTIVE,23,12,Yes,Yes,5/5/2021
+40537,Taco Bell,2509 S Smithville Rd,Fast Food Restaurants,Dayton,US,45420,OH,DELETED,23,14,Yes,Yes,9/24/2021
+40538,Taco Bell,47 Woodman Dr,Fast Food Restaurant,Dayton,US,45431,OH,DELETED,39,13,Yes,Yes,4/8/2021
+40539,Carvel,1 Airport Blvd,Fast Food,Orlando,US,32827,FL,DELETED,25,14,Yes,Yes,1/15/2021
+40540,Taco Bell,3060 Kettering Blvd,Fast Food Restaurant,Dayton,US,45439,OH,ACTIVE,37,11,Yes,Yes,3/8/2021
+40541,Burger King,1094 N Main St,Fast Food Restaurant,East Peoria,US,61611,IL,ACTIVE,35,13,Yes,Yes,10/30/2021
+40542,Chick-Fil-A,250 W Washington St,Fast Food Restaurants,East Peoria,US,61611,IL,ACTIVE,22,6,Yes,Yes,5/9/2021
+40543,Taco Bell,8440 N High St,Fast Food Restaurants,Columbus,US,43235,OH,ACTIVE,40,6,Yes,Yes,3/18/2021
+40544,Taco Bell,3834 Morse Rd,Fast Food Restaurants,Columbus,US,43219,OH,ACTIVE,28,9,Yes,Yes,2/21/2021
+40545,Taco Bell,4770 Sawmill Rd,Fast Food Restaurant,Columbus,US,43235,OH,ACTIVE,31,11,Yes,Yes,10/9/2021
+40546,Burger King,630 Machesney Rd,Fast Food Restaurants,Machesney Park,US,61115,IL,DELETED,35,6,Yes,Yes,12/27/2021
+40547,Burger King,1701 E Jackson St,Fast Food Restaurant,Macomb,US,61455,IL,ACTIVE,34,8,Yes,Yes,10/22/2021
+40548,Subway,500 Terry Rich Blvd,Fast Food Restaurants,Saint Clair,US,17970,PA,ACTIVE,22,13,Yes,Yes,4/24/2021
+40549,Subway,366 Center Ave,Fast Food Restaurants,Schuylkill Haven,US,17972,PA,ACTIVE,40,8,Yes,Yes,7/24/2021
+40550,Subway,6 W Main St,Fast Food Restaurants,Bloomsburg,US,17815,PA,ACTIVE,24,8,Yes,Yes,6/2/2021
+40551,Subway,149 N 3rd St,Fast Food Restaurants,Columbia,US,17512,PA,ACTIVE,23,14,Yes,Yes,12/20/2021
+40552,Subway,2350 N Reading Rd,Fast Food Restaurants,Denver,US,17517,PA,ACTIVE,21,12,Yes,Yes,5/7/2021
+40553,Burger King,439 S Schuyler Ave,Fast Food Restaurants,Kankakee,US,60901,IL,ACTIVE,37,5,Yes,Yes,3/21/2021
+40554,Burger King,3130 Plainfield Rd,Fast Food Restaurant,Joliet,US,60435,IL,ACTIVE,36,7,Yes,Yes,8/16/2021
+40555,Pizza Hut,620 Lincoln Way Ste 5,Fast Food Restaurants,Ames,US,50010,IA,ACTIVE,33,5,Yes,Yes,1/5/2021
+40556,Burger King,5300 Grand Ave,Fast Food,Gurnee,US,60031,IL,ACTIVE,32,14,Yes,Yes,5/8/2021
+40557,Burger King,1834 Waukegan Rd,Fast Food Restaurant,Glenview,US,60025,IL,DELETED,34,7,Yes,Yes,11/27/2021
+40558,Burger King,3406 Nameoki Rd,Fast Food Restaurants,Granite City,US,62040,IL,ACTIVE,30,15,Yes,Yes,9/5/2021
+40559,Burger King,5100 W Cermak Rd,Fast Food,Cicero,US,60804,IL,DELETED,21,5,Yes,Yes,6/25/2021
+40560,Dunkin' Donuts,7707 E Colonial Dr,Fast Food,Orlando,US,32807,FL,ACTIVE,31,7,Yes,Yes,12/13/2021
+40561,Dunkin' Donuts,6215 S Orange Ave,Fast Food,Orlando,US,32809,FL,ACTIVE,40,5,Yes,Yes,1/1/2021
+40562,Dunkin' Donuts,12236 S Apopka Vineland Rd,Fast Food,Orlando,US,32836,FL,DELETED,33,13,Yes,Yes,2/4/2021
+40563,Chicken Inn,7536 N Milwaukee Ave,"Fried Chicken Joint, Fast Food Restaurant, and Food",Chicago,US,60631,IL,ACTIVE,32,15,Yes,Yes,5/10/2021
+40564,Dunkin' Donuts,7501 Bird Rd,Fast Food,Miami,US,33155,FL,ACTIVE,26,11,Yes,Yes,3/25/2021
+40565,Dunkin' Donuts,10754 SW 24th St,Fast Food,Miami,US,33165,FL,ACTIVE,34,13,Yes,Yes,12/26/2021
+40566,Arby's,2000 Sycamore Rd,"Fast Food Restaurant, Sandwich Place, and American Restaurant",DeKalb,US,60115,IL,ACTIVE,34,12,Yes,Yes,9/17/2021
+40567,Shake Shack,3200 Chestnut St,Fast Food,Philadelphia,US,19104,PA,ACTIVE,29,15,Yes,Yes,11/8/2021
+40568,Subway,1281 Hyde Park Ave,Fast Food,Hyde Park,US,2136,MA,ACTIVE,39,13,Yes,Yes,8/27/2021
+40569,Subway,1105 Massachusetts Ave,Fast Food Restaurants,Cambridge,US,2138,MA,ACTIVE,25,14,Yes,Yes,1/9/2021
+40570,Subway,107 Main St,Sandwich Place and Fast Food Restaurant,Maynard,US,1754,MA,ACTIVE,30,11,Yes,Yes,10/9/2021
+40571,Quiznos Sub,204 N Canal Blvd,Fast Food,Thibodaux,US,70301,LA,ACTIVE,23,12,Yes,Yes,4/27/2021
+40572,McDonald's,1900 W Slauson Ave,Fast Food Restaurant,Los Angeles,US,90047,CA,ACTIVE,40,12,Yes,Yes,1/16/2021
+40573,McDonald's,18850 Soledad Canyon Rd,Fast Food,Canyon Country,US,91351,CA,ACTIVE,32,14,Yes,Yes,9/21/2021
+40574,Subway,9550 Main St,"Sandwich Place, Building, and Fast Food Restaurant",Woodstock,US,30188,GA,ACTIVE,30,12,Yes,Yes,8/20/2021
+40575,Subway,1142 E Highway 193,Fast Food Restaurants,Layton,US,84040,UT,ACTIVE,23,10,Yes,Yes,12/15/2021
+40576,McDonald's,1852 Manhattan Beach Blvd,Fast Food,Manhattan Beach,US,90266,CA,ACTIVE,32,8,Yes,Yes,9/4/2021
+40577,McDonald's,1821 Motel Dr,Fast Food Restaurant,Merced,US,95341,CA,DELETED,28,14,Yes,Yes,8/6/2021
+40578,Culver's,9229 S Harlem Ave,Fast Food,Bridgeview,US,60455,IL,ACTIVE,26,12,Yes,Yes,3/19/2021
+40579,McDonald's,1800 S Western Ave,Fast Food Restaurant,Los Angeles,US,90006,CA,ACTIVE,28,9,Yes,Yes,6/1/2021
+40580,McDonald's,1800 Prescott Rd,Fast Food Restaurant,Modesto,US,95350,CA,ACTIVE,35,6,Yes,Yes,1/23/2021
+40581,McDonald's,17455 Central Ave,Fast Food Restaurants,Carson,US,90746,CA,ACTIVE,20,14,Yes,Yes,5/25/2021
+40582,McDonald's,1725 E El Monte Way,Fast Food Restaurant,Dinuba,US,93618,CA,ACTIVE,22,12,Yes,Yes,8/31/2021
+40583,McDonald's,1721 E Bayshore Rd,Fast Food,Palo Alto,US,94303,CA,ACTIVE,38,5,Yes,Yes,6/4/2021
+40584,McDonald's,1721 Howe Ave,Fast Food Restaurants,Sacramento,US,95825,CA,ACTIVE,24,8,Yes,Yes,7/22/2021
+40585,McDonald's,1700 W Capitol Ave,Fast Food Restaurant,West Sacramento,US,95691,CA,ACTIVE,31,10,Yes,Yes,8/19/2021
+40586,McDonald's,170 Lincoln Rd E,Fast Food Restaurant South Vallejo,Vallejo,US,94591,CA,ACTIVE,30,6,Yes,Yes,12/26/2021
+40587,McDonald's,1634 W Glenoaks Blvd,Fast Food Restaurant,Glendale,US,91201,CA,ACTIVE,37,11,Yes,Yes,12/28/2021
+40588,McDonald's,15950 Los Serranos Country Club Dr,Fast Food Restaurant,Chino Hills,US,91709,CA,ACTIVE,35,5,Yes,Yes,12/8/2021
+40589,McDonald's,1570 Sycamore Ave,Fast Food Restaurants,Hercules,US,94547,CA,ACTIVE,37,15,Yes,Yes,4/1/2021
+40590,McDonald's,1520 W Valley Blvd,Fast Food Restaurant,Alhambra,US,91803,CA,ACTIVE,23,13,Yes,Yes,3/16/2021
+40591,McDonald's,1526 W Edinger Ave,Fast Food Restaurants,Santa Ana,US,92704,CA,DELETED,24,10,Yes,Yes,1/21/2021
+40592,McDonald's,1516 Canyon Del Rey Blvd,Fast Food Restaurants,Seaside,US,93955,CA,DELETED,27,12,Yes,Yes,5/15/2021
+40593,McDonald's,1516 Canyon Del Rey Blvd,Fast Food Restaurant,Seaside,US,93955,CA,ACTIVE,30,15,Yes,Yes,9/12/2021
+40594,KFC - Kentucky Fried Chicken,7199 Mission St,Fast Food,Daly City,US,94014,CA,ACTIVE,37,12,Yes,Yes,7/21/2021
+40595,McDonald's,1500 E Main St,Fast Food Restaurants,Woodland,US,95776,CA,ACTIVE,34,8,Yes,Yes,9/28/2021
+40596,McDonald's,1459 Main St,Fast Food Restaurant,Watsonville,US,95076,CA,ACTIVE,39,11,Yes,Yes,8/6/2021
+40597,Chick-fil-A,9345 Parkway E,"Fast Food Restaurant, American Restaurant, and Sandwich Place Huffman",Birmingham,US,35215,AL,ACTIVE,21,8,Yes,Yes,4/21/2021
+40598,Chick-fil-A,1005 Foxcroft Ave,Fast Food Restaurant,Martinsburg,US,25401,WV,ACTIVE,31,15,Yes,Yes,7/29/2021
+40599,Chick-fil-A,1300 N Eisenhower Dr,Fast Food Restaurants,Beckley,US,25801,WV,ACTIVE,35,10,Yes,Yes,10/24/2021
+40600,Chick-fil-A,5003a Victory Blvd,Fast Food Restaurant,Yorktown,US,23693,VA,ACTIVE,23,5,Yes,Yes,1/19/2021
+40601,Chick-fil-A,6732 Mooretown Rd,Fast Food Restaurants,Williamsburg,US,23188,VA,ACTIVE,35,7,Yes,Yes,3/17/2021
+40602,Chick-fil-A,5409 Indian River Rd,Fast Food Restaurants,Virginia Beach,US,23464,VA,ACTIVE,37,7,Yes,Yes,6/6/2021
+40603,Chick-fil-A,4802 Valley View Blvd NW,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Roanoke,US,24012,VA,DELETED,36,7,Yes,Yes,5/3/2021
+40604,Chick-fil-A,4802 Valley View Blvd NW,Fast Food Restaurant,Roanoke,US,24012,VA,ACTIVE,23,10,Yes,Yes,9/9/2021
+40605,Chick-fil-A,4374 Electric Rd,Fast Food Restaurants,Roanoke,US,24018,VA,DELETED,23,7,Yes,Yes,11/5/2021
+40606,Chick-fil-A,9100 W Broad St,Fast Food Restaurants,Henrico,US,23294,VA,ACTIVE,37,14,Yes,Yes,9/22/2021
+40607,In-N-Out Burger,324 S Azusa Ave,Fast Food Restaurant,Azusa,US,91702,CA,DELETED,23,8,Yes,Yes,12/14/2021
+40608,In-N-Out Burger,13850 Francisquito Ave,Fast Food,Baldwin Park,US,91706,CA,DELETED,30,12,Yes,Yes,8/26/2021
+40609,In-N-Out Burger,2821 Lenwood Rd,"Burger Joint, American Restaurant, and Fast Food Restaurant",Barstow,US,92311,CA,ACTIVE,23,5,Yes,Yes,5/17/2021
+40610,In-N-Out Burger,130 Grass Valley Hwy,Fast Food Restaurant,Auburn,US,95603,CA,ACTIVE,33,15,Yes,Yes,2/9/2021
+40611,Chick-fil-A,1205 N Military Hwy,Fast Food Restaurant,Norfolk,US,23502,VA,ACTIVE,34,9,Yes,Yes,9/28/2021
+40612,Chick-fil-A,2901 Candlers Mountain Rd,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Lynchburg,US,24502,VA,DELETED,20,15,Yes,Yes,7/4/2021
+40613,Chick-fil-A,2140 Coliseum Dr,Fast Food Restaurants,Hampton,US,23666,VA,ACTIVE,33,15,Yes,Yes,4/7/2021
+40614,Chick-fil-A,1698 Carl D Silver Pkwy,Fast Food Restaurant,Fredericksburg,US,22401,VA,ACTIVE,26,13,Yes,Yes,7/13/2021
+40615,Chick-fil-A,325 Piedmont Dr,Fast Food Restaurant,Danville,US,24540,VA,ACTIVE,33,5,Yes,Yes,1/10/2021
+40616,Chick-fil-A,4412 Chantilly Pl,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Chantilly,US,20151,VA,ACTIVE,30,10,Yes,Yes,10/18/2021
+40617,Chick-fil-A,1576 Rio Rd E,Fast Food Restaurants,Charlottesville,US,22901,VA,DELETED,27,15,Yes,Yes,9/2/2021
+40618,Chick-fil-A,350 Woodbrook Dr,Fast Food Restaurants,Charlottesville,US,22901,VA,ACTIVE,30,7,Yes,Yes,6/10/2021
+40619,Chick-fil-A,6191 S State St,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Salt Lake City,US,84107,UT,ACTIVE,21,7,Yes,Yes,3/1/2021
+40620,Pizza Hut,805 Highway 2 N,Fast Food Restaurants,Wilburton,US,74578,OK,ACTIVE,28,10,Yes,Yes,10/6/2021
+40621,Pizza Hut,701 S Broadway St,Fast Food Restaurants,Checotah,US,74426,OK,ACTIVE,38,11,Yes,Yes,3/6/2021
+40622,Pizza Hut,12922 E 86th St N,Fast Food Restaurants,Owasso,US,74055,OK,DELETED,21,13,Yes,Yes,7/11/2021
+40623,Pizza Hut,715 Highway 76 S,Fast Food Restaurants,Healdton,US,73438,OK,ACTIVE,24,6,Yes,Yes,10/14/2021
+40624,Subway,35 Erie Rd,Fast Food Restaurants,Tallmadge,US,44278,OH,ACTIVE,27,14,Yes,Yes,8/28/2021
+40625,Subway,3200 Broadway,Fast Food Restaurants,Grove City,US,43123,OH,ACTIVE,30,12,Yes,Yes,11/30/2021
+40626,Subway,3212 Mahoning Ave,Fast Food Restaurants,Youngstown,US,44509,OH,ACTIVE,20,8,Yes,Yes,6/24/2021
+40627,Taco Bell,1221 E 9 Mile Rd,Taco Place and Fast Food Restaurant,Hazel Park,US,48030,MI,ACTIVE,22,14,Yes,Yes,9/14/2021
+40628,Taco Bell,12200 Gratiot Ave,Fast Food Restaurant,Detroit,US,48205,MI,ACTIVE,39,5,Yes,Yes,9/22/2021
+40629,Subway,2924 State Rd,Fast Food Restaurants,Cuyahoga Falls,US,44223,OH,ACTIVE,29,15,Yes,Yes,1/23/2021
+40630,Subway,2838 Whipple Ave NW,Fast Food Restaurants,Canton,US,44708,OH,ACTIVE,26,9,Yes,Yes,2/25/2021
+40631,Arby's,1224 S Mission,Fast Food,Mount Pleasant,US,48858,MI,ACTIVE,23,11,Yes,Yes,3/11/2021
+40632,Whataburger,4610 S 48th St,Fast Food Restaurant,Phoenix,US,85040,AZ,ACTIVE,39,9,Yes,Yes,3/1/2021
+40633,Taco Bell,8428 Baltimore Ave,Fast Food Restaurants,College Park,US,20740,MD,DELETED,20,14,Yes,Yes,4/19/2021
+40634,Taco Bell,8428 Baltimore Ave,Fast Food Restaurant,College Park,US,20740,MD,ACTIVE,31,11,Yes,Yes,12/25/2021
+40635,Whataburger,450 W Indian School Rd,Fast Food,Phoenix,US,85013,AZ,ACTIVE,38,8,Yes,Yes,2/16/2021
+40636,Whataburger,1840 S 19th Ave,Burger Joint and Fast Food Restaurant Central City South,Phoenix,US,85009,AZ,ACTIVE,30,15,Yes,Yes,6/19/2021
+40637,Whataburger,7375 W Chandler Blvd,Fast Food Restaurant,Chandler,US,85226,AZ,ACTIVE,31,12,Yes,Yes,10/15/2021
+40638,Whataburger,1450 N Dysart Rd,Fast Food Restaurant,Avondale,US,85323,AZ,ACTIVE,28,13,Yes,Yes,11/24/2021
+40639,Subway,109 S Jefferson St,Fast Food Restaurants,La Grange,US,78945,TX,ACTIVE,38,14,Yes,Yes,2/6/2021
+40640,Burger King,2132 N Park Rd,Fast food restaurants,Connersville,US,47331,IN,ACTIVE,29,7,Yes,Yes,5/8/2021
+40641,Arby's,5515 Fenton Rd,Fast Food,Flint,US,48507,MI,ACTIVE,37,12,Yes,Yes,11/15/2021
+40642,Subway,1018 E Gravis St,Fast Food Restaurants,San Diego,US,78384,TX,ACTIVE,21,6,Yes,Yes,2/2/2021
+40643,El Burrito Loco,1416 W Galena Ave,Fast Food,Freeport,US,61032,IL,ACTIVE,39,7,Yes,Yes,5/16/2021
+40644,Arby's,1714 N Mitchell St,Fast Food Restaurant,Cadillac,US,49601,MI,ACTIVE,40,5,Yes,Yes,4/24/2021
+40645,Arby's,2509 Alpine Ave NW,Fast Food Restaurants,Grand Rapids,US,49544,MI,DELETED,29,7,Yes,Yes,10/18/2021
+40646,Arby's,765 44th St SW,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Wyoming,US,49509,MI,ACTIVE,39,6,Yes,Yes,11/26/2021
+40647,Arby's,3000 28th St SE,Fast Food Restaurant,Grand Rapids,US,49512,MI,ACTIVE,33,7,Yes,Yes,4/22/2021
+40648,Arby's,1230 Leonard St NE,Fast Food,Grand Rapids,US,49505,MI,ACTIVE,24,8,Yes,Yes,12/12/2021
+40649,Arby's,4584 Chicago Dr SW,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Grandville,US,49418,MI,ACTIVE,40,13,Yes,Yes,5/19/2021
+40650,Arby's,1195 Washington Ave,Fast Food,Holland,US,49423,MI,ACTIVE,35,7,Yes,Yes,10/23/2021
+40651,Burger King,36100 Hwy 27,Fast Food,Haines City,US,33844,FL,DELETED,39,15,Yes,Yes,8/30/2021
+40652,Arby's,411 W Carleton Rd,"Fast Food Restaurant, Sandwich Place, and American Restaurant",Hillsdale,US,49242,MI,ACTIVE,38,13,Yes,Yes,10/1/2021
+40653,Arby's,2143 W Main St,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Lowell,US,49331,MI,ACTIVE,29,14,Yes,Yes,10/28/2021
+40654,Arby's,952 N West Ave,Fast Food Restaurants,Jackson,US,49202,MI,ACTIVE,39,14,Yes,Yes,11/17/2021
+40655,Arby's,1215 M 89,Fast Food,Plainwell,US,49080,MI,ACTIVE,36,9,Yes,Yes,1/5/2021
+40656,Arby's,1215 M 89,Fast Food Restaurants,Plainwell,US,49080,MI,ACTIVE,31,5,Yes,Yes,9/24/2021
+40657,Arby's,1310 W Michigan Ave,Fast Food,Marshall,US,49068,MI,DELETED,25,14,Yes,Yes,6/6/2021
+40658,Arby's,8508 Shaver Rd,Fast Food,Portage,US,49024,MI,ACTIVE,23,14,Yes,Yes,5/29/2021
+40659,Arby's,3656 E Cork St,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Kalamazoo,US,49001,MI,ACTIVE,24,9,Yes,Yes,5/14/2021
+40660,Arby's,6031 S Cedar St,"Fast Food Restaurant, Sandwich Place, and American Restaurant",Lansing,US,48911,MI,ACTIVE,34,9,Yes,Yes,4/26/2021
+40661,Arby's,1881 S Scott Rd,Fast Food Restaurants,Saint Johns,US,48879,MI,ACTIVE,29,12,Yes,Yes,5/19/2021
+40662,Arby's,6360 Dixie Hwy,Fast Food Restaurants,Bridgeport,US,48722,MI,ACTIVE,36,7,Yes,Yes,6/18/2021
+40663,Arby's,7019 Eastman Ave,Fast Food Restaurant,Midland,US,48642,MI,ACTIVE,40,5,Yes,Yes,12/9/2021
+40664,Arby's,2900 Cook Rd,Fast Food Restaurants,West Branch,US,48661,MI,ACTIVE,39,11,Yes,Yes,3/5/2021
+40665,Burger King,860 S Main St,Fast Food Restaurants,Belle Glade,US,33430,FL,ACTIVE,30,14,Yes,Yes,5/22/2021
+40666,Arby's,10207 S Clare Ave,Fast Food Restaurant,Clare,US,48617,MI,ACTIVE,26,15,Yes,Yes,10/21/2021
+40667,Arby's,3574 W Houghton Lake Dr,Fast Food Restaurant,Houghton Lake,US,48629,MI,DELETED,23,5,Yes,Yes,12/31/2021
+40668,Arby's,765 S Main St,Fast Food Restaurants,Lapeer,US,48446,MI,ACTIVE,26,15,Yes,Yes,4/16/2021
+40669,Arby's,1010 S State Rd,Fast Food,Davison,US,48423,MI,ACTIVE,26,5,Yes,Yes,6/5/2021
+40670,Arby's,3465 Pollock Rd,Fast Food Restaurant,Grand Blanc,US,48439,MI,ACTIVE,26,11,Yes,Yes,5/1/2021
+40671,Papa Gino's,545 Hooksett Rd,Fast Food Restaurants,Manchester,US,3104,NH,ACTIVE,32,15,Yes,Yes,8/2/2021
+40672,Spangles,1818 E Pawnee St,"Fast Food Restaurant, American Restaurant, and Burger Joint",Wichita,US,67211,KS,ACTIVE,24,5,Yes,Yes,5/30/2021
+40673,Burger King,1308 N Keller Dr,Fast Food,Effingham,US,62401,IL,ACTIVE,35,6,Yes,Yes,7/8/2021
+40674,Capri Restaurant,2520 W Fairview Ave,Fast Food Restaurants,Boise,US,83702,ID,ACTIVE,38,10,Yes,Yes,7/19/2021
+40675,Arby's,1401 Thelma Keller Ave,Fast Food,Effingham,US,62401,IL,ACTIVE,21,8,Yes,Yes,12/9/2021
+40676,Angelina's Pizza,8155 Columbia Rd,Fast Food Restaurants,Olmsted Falls,US,44138,OH,ACTIVE,37,13,Yes,Yes,3/3/2021
+40677,Jack in the Box,2689 Pinole Valley Rd,Fast Food Restaurant,Pinole,US,94564,CA,ACTIVE,23,14,Yes,Yes,12/10/2021
+40678,Arby's,2543 Cleveland Ave Sw,Fast Food Restaurant,Canton,US,44707,OH,ACTIVE,30,5,Yes,Yes,9/3/2021
+40679,Arby's,4620 Tuscarawas St W,Fast Food,Canton,US,44708,OH,ACTIVE,36,7,Yes,Yes,6/1/2021
+40680,Chanello's Pizza,3201 E Ocean View Ave,Fast Food Restaurants,Norfolk,US,23518,VA,ACTIVE,29,8,Yes,Yes,7/31/2021
+40681,Jack in the Box,2505 A St,Fast Food Restaurant,Antioch,US,94509,CA,ACTIVE,25,5,Yes,Yes,3/10/2021
+40682,Jack in the Box,2548 S Azusa Ave,Fast Food,West Covina,US,91792,CA,ACTIVE,38,9,Yes,Yes,1/6/2021
+40683,Pizza Hut,8876 Dallas Acworth Hwy Ste 106,Fast Food Restaurants,Dallas,US,30132,GA,ACTIVE,29,9,Yes,Yes,10/23/2021
+40684,Taco Bell,7085 N Marks Ave,Fast Food Restaurants,Fresno,US,93711,CA,ACTIVE,30,10,Yes,Yes,4/17/2021
+40685,Jack in the Box,235 E Orangethorpe Ave,Fast Food Restaurant,Fullerton,US,92832,CA,ACTIVE,38,13,Yes,Yes,4/16/2021
+40686,Jack in the Box,2293 Arden Way,Fast Food Restaurant,Sacramento,US,95825,CA,ACTIVE,34,12,Yes,Yes,11/18/2021
+40687,Arby's,15 Progress Cir,Fast Food,Blue Ridge,US,30513,GA,ACTIVE,29,15,Yes,Yes,12/10/2021
+40688,Arby's,15 Progress Cir,"Fast Food Restaurant, Sandwich Place, and American Restaurant",Blue Ridge,US,30513,GA,ACTIVE,29,13,Yes,Yes,1/23/2021
+40689,Jack in the Box,2296 Griffin Way,Fast Food Restaurant,Corona,US,92879,CA,ACTIVE,21,7,Yes,Yes,3/30/2021
+40690,Taco Bell,7785 N 1st St,Fast Food Restaurant,Fresno,US,93720,CA,ACTIVE,27,8,Yes,Yes,11/10/2021
+40691,Jack in the Box,22730 Victory Blvd,Fast Food Restaurant,Woodland Hills,US,91367,CA,ACTIVE,25,12,Yes,Yes,8/8/2021
+40692,Jack in the Box,2242 S Euclid Ave,Fast Food Restaurant,Ontario,US,91762,CA,ACTIVE,36,13,Yes,Yes,1/18/2021
+40693,Taco Bell,991 W El Camino Real,Fast Food,Sunnyvale,US,94087,CA,ACTIVE,26,14,Yes,Yes,8/26/2021
+40694,Jack in the Box,22220 Wilmington Ave,Fast Food,Carson,US,90745,CA,DELETED,32,7,Yes,Yes,7/20/2021
+40695,Taco Bell,1350 Travis Blvd,Fast Food Restaurant,Fairfield,US,94533,CA,ACTIVE,30,13,Yes,Yes,12/24/2021
+40696,Taco Bell,500 Contra Costa Blvd,Fast Food,Pleasant Hill,US,94523,CA,ACTIVE,33,11,Yes,Yes,3/3/2021
+40697,Taco Bell,1700 Contra Costa Blvd,Fast Food Restaurant and Mexican Restaurant,Pleasant Hill,US,94523,CA,ACTIVE,34,14,Yes,Yes,10/19/2021
+40698,Jack in the Box,2125 Windsor Ave,Fast Food,Altadena,US,91001,CA,ACTIVE,31,8,Yes,Yes,11/23/2021
+40699,Burger King,3630 Cobb Pkwy Nw,Fast food restaurants,Acworth,US,30101,GA,ACTIVE,37,5,Yes,Yes,12/6/2021
+40700,Arby's,3319 Cobb Pkwy Nw,Fast Food Restaurants,Acworth,US,30101,GA,ACTIVE,21,5,Yes,Yes,7/22/2021
+40701,Dunkin' Donuts,215 E 201st St,Fast Food,Bronx,US,10458,NY,ACTIVE,34,9,Yes,Yes,11/11/2021
+40702,Dunkin' Donuts,2241 Southern Blvd,Fast Food,Bronx,US,10460,NY,ACTIVE,38,5,Yes,Yes,2/16/2021
+40703,McDonald's,3010 Canton Rd,Fast Food Restaurants,Marietta,US,30066,GA,ACTIVE,33,8,Yes,Yes,8/2/2021
+40704,Jack in the Box,2111 Taft Hwy,Fast Food Restaurant,Bakersfield,US,93313,CA,ACTIVE,26,14,Yes,Yes,4/7/2021
+40705,Dunkin' Donuts,1285 Castle Hill Ave,Fast Food,Bronx,US,10462,NY,ACTIVE,27,14,Yes,Yes,2/5/2021
+40706,Dunkin' Donuts,3114 Ditmars Blvd,Fast Food,Astoria,US,11105,NY,ACTIVE,22,9,Yes,Yes,12/5/2021
+40707,Taco Bell,500 Sierra St,Fast Food Restaurant,Kingsburg,US,93631,CA,ACTIVE,23,11,Yes,Yes,1/30/2021
+40708,Krispy Krunchy Chicken,946 Highway 69,Fast Food Restaurants,Fort Scott,US,66701,KS,ACTIVE,22,5,Yes,Yes,10/6/2021
+40709,Taco Bell,867 Oak Park Blvd,Fast Food,Pismo Beach,US,93449,CA,DELETED,26,13,Yes,Yes,6/13/2021
+40710,Taco Bell,1500 W Grand Ave,Fast Food Restaurants,Grover Beach,US,93433,CA,ACTIVE,36,15,Yes,Yes,11/5/2021
+40711,Taco Bell,535 W Tefft St,Fast Food Restaurant and Mexican Restaurant,Nipomo,US,93444,CA,ACTIVE,32,14,Yes,Yes,5/28/2021
+40712,Taco Bell,3315 Union Ave,Fast Food,Bakersfield,US,93305,CA,ACTIVE,30,14,Yes,Yes,6/13/2021
+40713,Taco Bell,3315 Union Ave,Fast Food Restaurant,Bakersfield,US,93305,CA,ACTIVE,22,12,Yes,Yes,3/4/2021
+40714,Arby's,805 W Wyatt Earp Blvd,Fast Food,Dodge City,US,67801,KS,ACTIVE,25,5,Yes,Yes,3/18/2021
+40715,Arby's,805 W Wyatt Earp Blvd,Fast Food Restaurants,Dodge City,US,67801,KS,ACTIVE,38,13,Yes,Yes,9/4/2021
+40716,Taco Bell,2300 H St,Fast Food Restaurant,Bakersfield,US,93301,CA,ACTIVE,25,15,Yes,Yes,4/23/2021
+40717,Taco Bell,1520 Hillman St,Fast Food Restaurant,Tulare,US,93274,CA,ACTIVE,36,12,Yes,Yes,9/21/2021
+40718,Taco Bell,510 E Tulare Ave,Fast Food,Tulare,US,93274,CA,ACTIVE,20,15,Yes,Yes,9/14/2021
+40719,Taco Bell,826 W University Ave,Fast Food Restaurant,Gainesville,US,32601,FL,DELETED,40,7,Yes,Yes,6/17/2021
+40720,Krystal,1217 Oak Ridge Turnpike,Fast Food Restaurant,Oak Ridge,US,37830,TN,DELETED,20,12,Yes,Yes,3/19/2021
+40721,Krystal,1717 Charlotte Pike,"Fast Food Restaurant, Burger Joint, and Restaurant",Nashville,US,37203,TN,ACTIVE,30,6,Yes,Yes,6/9/2021
+40722,Krystal,2613 Franklin Pike,Fast Food Restaurants,Nashville,US,37204,TN,ACTIVE,26,15,Yes,Yes,7/14/2021
+40723,Krystal,3910 Western Avenue,Fast Food,Knoxville,US,37921,TN,ACTIVE,28,14,Yes,Yes,2/17/2021
+40724,Krystal,6300 Ringgold Rd,"Fast Food Restaurant, Burger Joint, and Restaurant",Chattanooga,US,37412,TN,DELETED,32,9,Yes,Yes,8/27/2021
+40725,Krystal,6300 Ringgold Rd,Fast Food Restaurant,Chattanooga,US,37412,TN,ACTIVE,23,6,Yes,Yes,3/6/2021
+40726,Krystal,5401 Brainerd Rd,Fast Food Restaurant,Chattanooga,US,37412,TN,ACTIVE,33,11,Yes,Yes,9/16/2021
+40727,KFC,215 W 11th St,Fast Food Restaurants,Coffeyville,US,67337,KS,ACTIVE,36,5,Yes,Yes,8/11/2021
+40728,Krystal,607 E Martintown Rd,Fast Food Restaurants,North Augusta,US,29841,SC,ACTIVE,35,12,Yes,Yes,10/3/2021
+40729,Krystal,2010 E County Line Rd,Fast Food Restaurant,Ridgeland,US,39157,MS,ACTIVE,37,12,Yes,Yes,7/2/2021
+40730,Krystal,1055 Holcomb Bridge Rd,Fast Food,Roswell,US,30076,GA,ACTIVE,33,5,Yes,Yes,2/27/2021
+40731,Krystal,1704 Turner McCall Blvd,Fast Food,Rome,US,30161,GA,ACTIVE,24,8,Yes,Yes,4/8/2021
+40732,Krystal,519 Shorter Avenue,Fast Food,Rome,US,30161,GA,DELETED,34,5,Yes,Yes,4/11/2021
+40733,Krystal,1415 Sam Nunn Blvd,Fast Food Restaurants,Perry,US,31069,GA,ACTIVE,34,15,Yes,Yes,8/10/2021
+40734,Krystal,1015 US Highway 80 E,Fast Food Restaurants,Pooler,US,31322,GA,ACTIVE,34,13,Yes,Yes,8/16/2021
+40735,Krystal,2929 Canton Rd,Fast Food Restaurants,Marietta,US,30066,GA,ACTIVE,37,13,Yes,Yes,3/21/2021
+40736,Krystal,2929 Canton Rd,"Fast Food Restaurant, Burger Joint, and Restaurant",Marietta,US,30066,GA,DELETED,37,13,Yes,Yes,10/24/2021
+40737,Arby's,604 W Appleway Ave,Fast Food,Coeur d'Alene,US,83814,ID,ACTIVE,36,15,Yes,Yes,10/4/2021
+40738,Arby's,604 W Appleway Ave,Fast Food Restaurant,Coeur d'Alene,US,83814,ID,DELETED,29,6,Yes,Yes,1/17/2021
+40739,Subway,31 W Hanover St,Fast Food Restaurants,Spring Grove,US,17362,PA,ACTIVE,36,5,Yes,Yes,9/10/2021
+40740,Subway,608 E Main St,Fast Food Restaurants,Waynesboro,US,17268,PA,ACTIVE,23,15,Yes,Yes,12/19/2021
+40741,Subway,491 E Sycamore Rd,Fast Food Restaurants,Snow Shoe,US,16874,PA,ACTIVE,28,8,Yes,Yes,8/20/2021
+40742,Subway,1169 S Main St,Fast Food Restaurants,Mansfield,US,16933,PA,ACTIVE,21,6,Yes,Yes,11/17/2021
+40743,Subway,3455 Capital City Mall Dr,Fast Food Restaurants,Camp Hill,US,17011,PA,ACTIVE,39,10,Yes,Yes,9/22/2021
+40744,Subway,322 Spring Plz,Fast Food Restaurant,Roaring Spring,US,16673,PA,ACTIVE,23,5,Yes,Yes,3/27/2021
+40745,Subway,3104 W 26th St,Fast Food Restaurants,Erie,US,16506,PA,ACTIVE,28,13,Yes,Yes,8/5/2021
+40746,Subway,8035 Perry Hwy,Fast Food Restaurants,Erie,US,16509,PA,ACTIVE,26,15,Yes,Yes,3/1/2021
+40747,Subway,1501 E 38th St,Fast Food Restaurants,Erie,US,16510,PA,ACTIVE,29,14,Yes,Yes,11/9/2021
+40748,Subway,116 N Franklin St,Fast Food Restaurants,Titusville,US,16354,PA,ACTIVE,28,6,Yes,Yes,7/5/2021
+40749,McDonald's,7421 Crater Lake Hwy,Fast Food Restaurants,White City,US,97503,OR,ACTIVE,21,13,Yes,Yes,8/11/2021
+40750,McDonald's,2100 8th Ct,Fast Food Restaurant,West Linn,US,97068,OR,ACTIVE,34,5,Yes,Yes,6/22/2021
+40751,McDonald's,18550 Willamette Dr,Fast Food Restaurant,West Linn,US,97068,OR,ACTIVE,28,11,Yes,Yes,3/21/2021
+40752,McDonald's,18550 Willamette Dr,Fast Food,West Linn,US,97068,OR,ACTIVE,25,7,Yes,Yes,8/26/2021
+40753,McDonald's,1002 NW Frontage Rd,Fast Food Restaurant,Troutdale,US,97060,OR,DELETED,32,7,Yes,Yes,4/6/2021
+40754,Arby's,3333 W Okeechobee Rd,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Hialeah,US,33012,FL,ACTIVE,35,15,Yes,Yes,10/4/2021
+40755,Taco Bell,4301 W Wisconsin Ave,Fast Food Restaurant Grand Chute,Appleton,US,54913,WI,ACTIVE,36,8,Yes,Yes,11/23/2021
+40756,Chick-Fil-A,1101 Quintilio Dr,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Bear,US,19701,DE,ACTIVE,30,5,Yes,Yes,4/7/2021
+40757,Burger King,1170 Pulaski Hwy,Fast Food Restaurant and Burger Joint,Bear,US,19701,DE,ACTIVE,38,12,Yes,Yes,1/14/2021
+40758,McDonald's,5701 Main St,Fast Food,Springfield,US,97478,OR,ACTIVE,32,13,Yes,Yes,12/20/2021
+40759,China Bowl Take Out Restaurant,645 Market St,Fast Food Restaurants,Camden,US,8102,NJ,ACTIVE,21,14,Yes,Yes,2/20/2021
+40760,McDonald's,1598 Hawthorne Ave NE,Fast Food Restaurant Northeast Salem,Salem,US,97301,OR,DELETED,21,13,Yes,Yes,12/9/2021
+40761,McDonald's,570 Wallace Rd NW,Fast Food Restaurant,Salem,US,97304,OR,ACTIVE,27,15,Yes,Yes,10/2/2021
+40762,McDonald's,570 Wallace Rd NW,Fast Food,Salem,US,97304,OR,ACTIVE,25,7,Yes,Yes,11/20/2021
+40763,Arby's,1405 Sw 13th St,Fast Food,Gainesville,US,32608,FL,ACTIVE,20,8,Yes,Yes,8/20/2021
+40764,McDonald's,5090 Commercial St SE,Fast Food Restaurants,Salem,US,97306,OR,ACTIVE,32,7,Yes,Yes,6/25/2021
+40765,McDonald's,3540 Highway 90,Fast Food Restaurant,Milton,US,32571,FL,ACTIVE,37,11,Yes,Yes,1/9/2021
+40766,Sonic Drive In,1027 Washington Pike,Fast Food Restaurants,Bridgeville,US,15017,PA,ACTIVE,28,11,Yes,Yes,11/28/2021
+40767,Sonic Drive In,2611 Washington Rd,Fast Food Restaurants,Canonsburg,US,15317,PA,ACTIVE,31,6,Yes,Yes,9/30/2021
+40768,McDonald's,203 W Oglethorpe Hwy,Fast Food Restaurant,Hinesville,US,31313,GA,DELETED,30,15,Yes,Yes,5/9/2021
+40769,McDonald's,801 Elma G Miles Pkwy,Fast Food Restaurant,Hinesville,US,31313,GA,ACTIVE,37,14,Yes,Yes,3/14/2021
+40770,Burger King,8590 Navarre Pkwy,Fast Food Restaurant,Navarre,US,32566,FL,ACTIVE,31,12,Yes,Yes,8/30/2021
+40771,McDonald's,965 Dawsonville Hwy,Fast Food,Gainesville,US,30501,GA,ACTIVE,35,13,Yes,Yes,5/29/2021
+40772,McDonald's,2125 NW Stewart Pkwy,Fast Food Restaurant,Roseburg,US,97470,OR,ACTIVE,34,9,Yes,Yes,4/26/2021
+40773,McDonald's,19 W Franklin Pl,Fast Food Restaurants,Hartwell,US,30643,GA,ACTIVE,24,13,Yes,Yes,5/18/2021
+40774,McDonald's,204 Broad St,Fast Food,Hawkinsville,US,31036,GA,ACTIVE,30,15,Yes,Yes,4/19/2021
+40775,McDonald's,895 SW Rimrock Way,Fast Food Restaurants,Redmond,US,97756,OR,ACTIVE,31,8,Yes,Yes,1/4/2021
+40776,McDonald's,9100 SE Powell Blvd,Fast Food Restaurant,Portland,US,97266,OR,DELETED,24,8,Yes,Yes,7/19/2021
+40777,McDonald's,1520 NE Grand Ave,Fast Food Restaurants,Portland,US,97232,OR,ACTIVE,26,9,Yes,Yes,9/11/2021
+40778,McDonald's,18320 SE Stark St,Fast Food Restaurant Rockwood,Portland,US,97233,OR,ACTIVE,38,11,Yes,Yes,11/23/2021
+40779,McDonald's,2501 Thompson Bridge Rd,Fast Food,Gainesville,US,30501,GA,ACTIVE,35,5,Yes,Yes,7/18/2021
+40780,McDonald's,3330 NE 82nd Ave,Fast Food Restaurants,Portland,US,97220,OR,ACTIVE,32,14,Yes,Yes,11/29/2021
+40781,McDonald's,7370 Spout Springs Rd,Fast Food Restaurant,Flowery Branch,US,30542,GA,ACTIVE,20,14,Yes,Yes,5/11/2021
+40782,McDonald's,12005 N Center Ave,Fast Food Restaurant Hayden Island,Portland,US,97217,OR,ACTIVE,21,11,Yes,Yes,12/14/2021
+40783,McDonald's,143 Ocilla Hwy,Fast Food Restaurants,Fitzgerald,US,31750,GA,DELETED,35,6,Yes,Yes,12/17/2021
+40784,McDonald's,300 Elbert St,Fast Food Restaurants,Elberton,US,30635,GA,ACTIVE,35,8,Yes,Yes,10/21/2021
+40785,McDonald's,8011 NE M L King Blvd,Fast Food Restaurant,Portland,US,97211,OR,ACTIVE,32,8,Yes,Yes,6/29/2021
+40786,McDonald's,10970 SE Oak St,Fast Food,Portland,US,97222,OR,ACTIVE,31,11,Yes,Yes,3/6/2021
+40787,McDonald's,1035 SW 6th Ave,Fast Food Restaurants,Portland,US,97204,OR,ACTIVE,20,5,Yes,Yes,8/26/2021
+40788,McDonald's,1831 W Burnside St,Fast Food Restaurants,Portland,US,97209,OR,ACTIVE,24,5,Yes,Yes,12/31/2021
+40789,McDonald's,5220 Buford Hwy NE,Fast Food Restaurants,Atlanta,US,30340,GA,ACTIVE,23,9,Yes,Yes,3/20/2021
+40790,McDonald's,7487 N Ida Ave,Fast Food Restaurant,Portland,US,97203,OR,ACTIVE,26,5,Yes,Yes,10/25/2021
+40791,McDonald's,1850 SW 6th Ave,Fast Food Restaurant,Portland,US,97201,OR,ACTIVE,30,10,Yes,Yes,10/9/2021
+40792,McDonald's,2875 SE Powell Blvd,Fast Food Restaurant,Portland,US,97202,OR,ACTIVE,26,8,Yes,Yes,3/27/2021
+40793,McDonald's,9502 Highway 5,Fast Food Restaurant,Douglasville,US,30135,GA,ACTIVE,37,7,Yes,Yes,1/8/2021
+40794,McDonald's,943 Maddox Dr,Fast Food Restaurant,Ellijay,US,30540,GA,ACTIVE,27,9,Yes,Yes,7/19/2021
+40795,McDonald's,2010 Clackamette Dr,Fast Food Restaurant,Oregon City,US,97045,OR,DELETED,24,15,Yes,Yes,2/7/2021
+40796,McDonald's,900 Southgate,Fast Food,Pendleton,US,97801,OR,ACTIVE,33,14,Yes,Yes,11/15/2021
+40797,McDonald's,830 Commerce Dr,Fast food restaurants,Decatur,US,30030,GA,ACTIVE,39,14,Yes,Yes,1/4/2021
+40798,McDonald's,2726 Chapel Hill Rd,Fast Food Restaurant,Douglasville,US,30135,GA,ACTIVE,29,12,Yes,Yes,8/20/2021
+40799,McDonald's,1450 Molalla Ave,Fast Food Restaurants,Oregon City,US,97045,OR,ACTIVE,32,10,Yes,Yes,1/17/2021
+40800,McDonald's,1690 E Idaho Ave,Fast Food,Ontario,US,97914,OR,ACTIVE,40,15,Yes,Yes,10/8/2021
+40801,McDonald's,1690 E Idaho Ave,Fast Food Restaurants,Ontario,US,97914,OR,ACTIVE,22,13,Yes,Yes,2/28/2021
+40802,Arby's,1305 Tuskawilla Rd,Fast Food Restaurant,Winter Springs,US,32708,FL,ACTIVE,28,14,Yes,Yes,4/19/2021
+40803,McDonald's,47567 Highway 58,Fast Food Restaurants,Oakridge,US,97463,OR,ACTIVE,26,15,Yes,Yes,5/1/2021
+40804,McDonald's,1300 N Coast Hwy,Fast Food Restaurant,Newport,US,97365,OR,ACTIVE,40,12,Yes,Yes,9/19/2021
+40805,McDonald's,142 Carbondale Rd SW,Fast Food,Dalton,US,30721,GA,ACTIVE,33,5,Yes,Yes,5/12/2021
+40806,McDonald's,142 Carbondale Rd SW,Fast Food Restaurant and Burger Joint,Dalton,US,30721,GA,ACTIVE,30,14,Yes,Yes,7/20/2021
+40807,McDonald's,3036 Villa Rica Hwy,Fast Food Restaurant and Burger Joint,Dallas,US,30157,GA,ACTIVE,23,11,Yes,Yes,1/29/2021
+40808,McDonald's,3611 Crater Lake Hwy,Fast Food,Medford,US,97504,OR,ACTIVE,34,13,Yes,Yes,2/26/2021
+40809,Auntie Anne's Pretzels,345 Spotsylvania Mall,Bakery & Pastries / American / Fast Food,Fredericksburg,US,22407,VA,ACTIVE,40,14,Yes,Yes,9/15/2021
+40810,McDonald's,660 Atlanta Rd,Fast Food Restaurant,Cumming,US,30040,GA,ACTIVE,25,15,Yes,Yes,7/24/2021
+40811,Auntie Anne's Pretzels,3111 S 31st St,Bakery & Pastries / American / Fast Food,Temple,US,76502,TX,ACTIVE,32,12,Yes,Yes,10/21/2021
+40812,McDonald's,1140 Biddle Rd,Fast Food Restaurants,Medford,US,97504,OR,ACTIVE,20,6,Yes,Yes,8/16/2021
+40813,McDonald's,100 16th St SE,Fast Food Restaurant,Long Beach,US,98631,WA,ACTIVE,38,11,Yes,Yes,2/4/2021
+40814,McDonald's,2080 Crowell Rd N,Fast Food Restaurant,Covington,US,30014,GA,DELETED,25,6,Yes,Yes,6/9/2021
+40815,Subway,104 W Nashville Dr,Sandwich Place and Fast Food Restaurant,Nashville,US,27856,NC,ACTIVE,30,12,Yes,Yes,2/8/2021
+40816,Subway,2443 W Nc 10 Hwy,Fast Food Restaurants,Newton,US,28658,NC,DELETED,31,5,Yes,Yes,5/14/2021
+40817,McDonald's,2320 Salem Rd SE,Fast Food Restaurant,Conyers,US,30013,GA,ACTIVE,33,12,Yes,Yes,1/4/2021
+40818,McDonald's,2320 Salem Rd SE,Fast Food Restaurants,Conyers,US,30013,GA,ACTIVE,33,9,Yes,Yes,9/16/2021
+40819,Subway,1408 Edgewood Dr,Fast Food Restaurants,Mount Airy,US,27030,NC,ACTIVE,37,10,Yes,Yes,11/5/2021
+40820,Subway,336 Williamson Rd,Fast Food Restaurant,Mooresville,US,28117,NC,ACTIVE,23,13,Yes,Yes,10/17/2021
+40821,Subway,1255 Burkemont Ave,Fast Food Restaurants,Morganton,US,28655,NC,ACTIVE,34,8,Yes,Yes,12/22/2021
+40822,McDonald's,1619 Bradley Park Dr,Fast Food Restaurant,Columbus,US,31904,GA,ACTIVE,36,14,Yes,Yes,3/3/2021
+40823,McDonald's,1619 Bradley Park Dr,Fast Food Restaurants,Columbus,US,31904,GA,ACTIVE,28,10,Yes,Yes,10/5/2021
+40824,Subway,4153 W Vernon Ave,Fast Food Restaurant,Kinston,US,28504,NC,ACTIVE,28,6,Yes,Yes,1/17/2021
+40825,McDonald's,1130 West Ave,Fast Food Restaurant,Cartersville,US,30120,GA,ACTIVE,24,7,Yes,Yes,2/18/2021
+40826,McDonald's,1175 Bankhead Hwy,Fast Food Restaurants,Carrollton,US,30116,GA,ACTIVE,30,9,Yes,Yes,10/8/2021
+40827,McDonald's,1175 Bankhead Hwy,Fast Food Restaurant,Carrollton,US,30116,GA,ACTIVE,35,14,Yes,Yes,8/18/2021
+40828,Back Yard Burgers,4600 Opa Locka Ln,Fast Food Restaurants,Destin,US,32541,FL,ACTIVE,36,8,Yes,Yes,9/20/2021
+40829,McDonald's,1350 E Woodrow Wilson Ave,Fast Food Restaurants,Jackson,US,39216,MS,ACTIVE,40,10,Yes,Yes,12/11/2021
+40830,McDonald's,1033 Kingold Blvd,Fast Food Restaurants,Snow Hill,US,28580,NC,ACTIVE,26,8,Yes,Yes,1/18/2021
+40831,Arby's,1238 N Ferdon Blvd Ste A,Fast Food Restaurants,Crestview,US,32536,FL,ACTIVE,20,6,Yes,Yes,4/14/2021
+40832,Subway,1442 S Bristol St,Fast Food,Santa Ana,US,92704,CA,DELETED,26,5,Yes,Yes,12/13/2021
+40833,Subway,3827 S Bristol St,Fast Food,Santa Ana,US,92704,CA,ACTIVE,37,11,Yes,Yes,2/15/2021
+40834,Subway,2403 N Tustin Ave,Fast Food,Santa Ana,US,92705,CA,ACTIVE,24,13,Yes,Yes,4/25/2021
+40835,McDonald's,10100 Leesville Rd,Fast Food Restaurant,Raleigh,US,27613,NC,ACTIVE,28,14,Yes,Yes,1/9/2021
+40836,McDonald's,103 Centennial Dr,Fast Food Restaurants,Livingston,US,59047,MT,ACTIVE,34,15,Yes,Yes,5/29/2021
+40837,McDonald's,133 N Interchange,Fast Food Restaurant,Deer Lodge,US,59722,MT,ACTIVE,25,13,Yes,Yes,8/2/2021
+40838,McDonald's,133 N Interchange,Fast Food Restaurants,Deer Lodge,US,59722,MT,ACTIVE,21,13,Yes,Yes,2/1/2021
+40839,McDonald's,133 N Interchange,Fast Food,Deer Lodge,US,59722,MT,ACTIVE,28,13,Yes,Yes,3/19/2021
+40840,McDonald's,1321 N Road St,Fast Food Restaurants,Elizabeth City,US,27909,NC,DELETED,38,11,Yes,Yes,6/28/2021
+40841,McDonald's,107 Gateway Blvd,Fast Food,Mooresville,US,28117,NC,ACTIVE,40,9,Yes,Yes,2/26/2021
+40842,Bob Evans,2951 S Highway 27,Fast Food Restaurants,Clermont,US,34711,FL,ACTIVE,22,9,Yes,Yes,7/31/2021
+40843,McDonald's,1209 N Brightleaf Blvd,Fast Food Restaurant,Smithfield,US,27577,NC,ACTIVE,26,8,Yes,Yes,2/21/2021
+40844,McDonald's,1201 W Sugar Creek Rd,Fast Food Restaurant,Charlotte,US,28213,NC,ACTIVE,39,7,Yes,Yes,11/13/2021
+40845,McDonald's,110 Morganton Blvd SW,Fast Food Restaurant,Lenoir,US,28645,NC,ACTIVE,30,9,Yes,Yes,9/30/2021
+40846,McDonald's,11401 Highway 49,Fast Food Restaurant,Gulfport,US,39503,MS,ACTIVE,27,7,Yes,Yes,12/11/2021
+40847,Hardee's,58 Highway 64 W,Fast food restaurants,Hayesville,US,28904,NC,ACTIVE,21,9,Yes,Yes,7/29/2021
+40848,McDonald's,1035 N Wendover Rd,Fast Food Restaurant,Charlotte,US,28211,NC,DELETED,28,12,Yes,Yes,11/5/2021
+40849,Hardee's,1901 S York Rd,Fast food restaurants,Gastonia,US,28052,NC,ACTIVE,22,10,Yes,Yes,8/24/2021
+40850,McDonald's,1010 N State St,Fast Food Restaurant,Jackson,US,39202,MS,ACTIVE,29,12,Yes,Yes,9/26/2021
+40851,Hardee's,262 W Kings Hwy,Fast Food Restaurant,Eden,US,27288,NC,ACTIVE,39,12,Yes,Yes,9/20/2021
+40852,McDonald's,1000 High Point St,Fast Food Restaurants,Randleman,US,27317,NC,ACTIVE,30,14,Yes,Yes,6/28/2021
+40853,Hardee's,609 Conover Blvd W,Fast Food Restaurant,Conover,US,28613,NC,ACTIVE,33,15,Yes,Yes,6/30/2021
+40854,Hardee's,6116 Farrington Rd,Fast Food Restaurant and Burger Joint,Chapel Hill,US,27517,NC,ACTIVE,37,12,Yes,Yes,8/15/2021
+40855,Hardee's,1018 Monroe St,Fast Food Restaurant,Carthage,US,28327,NC,ACTIVE,30,13,Yes,Yes,10/17/2021
+40856,McDonald's,1500 Western Blvd,Fast Food Restaurants,Tarboro,US,27886,NC,ACTIVE,38,11,Yes,Yes,4/8/2021
+40857,Hardee's,1211 N Main St,Burger Joint and Fast Food Restaurant,Bladenboro,US,28320,NC,ACTIVE,24,8,Yes,Yes,9/10/2021
+40858,Hardee's,899 Pinehurst Ave,Fast Food Restaurant,Carthage,US,28327,NC,ACTIVE,34,6,Yes,Yes,8/10/2021
+40859,McDonald's,1315 Monmouth St,Fast Food Restaurant,Independence,US,97351,OR,ACTIVE,25,7,Yes,Yes,9/17/2021
+40860,McDonald's,2101 Cascade Ave,Fast Food Restaurants,Hood River,US,97031,OR,ACTIVE,25,9,Yes,Yes,1/6/2021
+40861,McDonald's,1049 E Marina Way,Fast Food Restaurant,Hood River,US,97031,OR,ACTIVE,37,5,Yes,Yes,11/14/2021
+40862,McDonald's,900 SW Highland Dr,Fast Food Restaurant Gresham-Centennial,Gresham,US,97080,OR,ACTIVE,26,12,Yes,Yes,4/12/2021
+40863,McDonald's,4706 Portland Rd NE,Fast Food Restaurants,Salem,US,97305,OR,DELETED,24,7,Yes,Yes,11/23/2021
+40864,Whataburger,1701 S Beckley Rd,Fast Food Restaurants,Red Oak,US,75154,TX,ACTIVE,36,9,Yes,Yes,6/25/2021
+40865,McDonald's,820 E Berkeley St,Fast Food,Gladstone,US,97027,OR,ACTIVE,22,13,Yes,Yes,4/23/2021
+40866,McDonald's,204 NE Beacon Dr,Fast Food,Grants Pass,US,97526,OR,ACTIVE,26,10,Yes,Yes,3/25/2021
+40867,Arby's,27900 Orchard Lake Rd,Fast Food Restaurant,Farmington,US,48334,MI,ACTIVE,24,15,Yes,Yes,9/29/2021
+40868,Chick-fil-A,4239 Winterville Pkwy,Fast Food Restaurants,Winterville,US,28590,NC,ACTIVE,34,10,Yes,Yes,3/3/2021
+40869,McDonald's,2060 Highway 101,Fast Food Restaurant,Florence,US,97439,OR,ACTIVE,36,11,Yes,Yes,2/13/2021
+40870,Krystal,3909 Bloomfield Rd,"Fast Food Restaurant, Burger Joint, and Restaurant",Macon,US,31206,GA,ACTIVE,29,8,Yes,Yes,9/29/2021
+40871,Krystal,1140 Gray Hwy,Fast Food Restaurant,Macon,US,31211,GA,ACTIVE,37,15,Yes,Yes,9/1/2021
+40872,McDonald's,3555 W 11th Ave,Fast Food Restaurants,Eugene,US,97402,OR,ACTIVE,32,13,Yes,Yes,5/18/2021
+40873,McDonald's,55 River Ave,Fast Food Restaurant,Eugene,US,97404,OR,ACTIVE,35,6,Yes,Yes,5/18/2021
+40874,Krystal,1266 Lakes Blvd,Fast Food,Lake Park,US,31636,GA,ACTIVE,36,7,Yes,Yes,1/9/2021
+40875,Chick-fil-A,6108C Arlington Blvd,Fast Food Restaurant,Falls Church,US,22044,VA,DELETED,36,14,Yes,Yes,4/15/2021
+40876,Chick-fil-A,6108C Arlington Blvd,Fast Food Restaurants,Falls Church,US,22044,VA,ACTIVE,29,5,Yes,Yes,4/1/2021
+40877,McDonald's,300 NW 3rd St,Fast food restaurants,Corvallis,US,97330,OR,ACTIVE,23,15,Yes,Yes,5/2/2021
+40878,McDonald's,772 S Broadway,Fast Food,Coos Bay,US,97420,OR,ACTIVE,32,14,Yes,Yes,8/7/2021
+40879,Krystal,1855 Candler Rd,Fast Food Restaurant,Decatur,US,30032,GA,ACTIVE,30,7,Yes,Yes,11/11/2021
+40880,Krystal,560 Atlanta Road,Fast Food,Cumming,US,30040,GA,ACTIVE,23,12,Yes,Yes,5/20/2021
+40881,Chick-Fil-A,6240 E Broad St,Fast Food Restaurants,Columbus,US,43213,OH,ACTIVE,32,12,Yes,Yes,4/19/2021
+40882,McDonald's,220 SW Century Dr,Fast Food,Bend,US,97702,OR,ACTIVE,28,8,Yes,Yes,7/22/2021
+40883,McDonald's,20120 Pinebrook Blvd,Fast Food Restaurant,Bend,US,97702,OR,ACTIVE,28,10,Yes,Yes,8/31/2021
+40884,Krystal,1555 Walton Way,Fast Food,Augusta,US,30904,GA,ACTIVE,23,9,Yes,Yes,3/7/2021
+40885,Krystal,3403 Wrightsboro Road,Fast Food,Augusta,US,30909,GA,ACTIVE,29,15,Yes,Yes,9/23/2021
+40886,Krystal,3116 Washington Road,Fast Food,Augusta,US,30909,GA,ACTIVE,35,12,Yes,Yes,11/22/2021
+40887,McDonald's,645 Marine Dr,Fast Food Restaurants,Astoria,US,97103,OR,ACTIVE,32,14,Yes,Yes,8/21/2021
+40888,McDonald's,645 Marine Dr,Fast Food,Astoria,US,97103,OR,ACTIVE,33,10,Yes,Yes,2/27/2021
+40889,McDonald's,3232 Pacific Blvd SE,Fast food restaurants,Albany,US,97321,OR,ACTIVE,38,8,Yes,Yes,9/19/2021
+40890,Krystal,505 N State Road 19,Fast Food,Palatka,US,32177,FL,ACTIVE,27,5,Yes,Yes,1/23/2021
+40891,Krystal,5660 N 9th Ave,Fast Food Restaurant,Pensacola,US,32504,FL,ACTIVE,21,14,Yes,Yes,4/28/2021
+40892,McDonald's,526 E 2nd St,Fast Food,Winner,US,57580,SD,ACTIVE,21,5,Yes,Yes,11/13/2021
+40893,Krystal,337 Park Ave,Fast Food Restaurant,Orange Park,US,32073,FL,ACTIVE,27,6,Yes,Yes,12/8/2021
+40894,Krystal,6663 Carolina Street,Fast Food,Milton,US,32570,FL,ACTIVE,39,6,Yes,Yes,11/16/2021
+40895,McDonald's,702 N Dakota St,Fast Food Restaurants,Vermillion,US,57069,SD,ACTIVE,28,10,Yes,Yes,10/13/2021
+40896,McDonald's,3209 S Louise Ave,Fast Food Restaurant,Sioux Falls,US,57106,SD,DELETED,39,13,Yes,Yes,7/27/2021
+40897,McDonald's,820 35th Cir SE,Fast Food Restaurants,Watertown,US,57201,SD,ACTIVE,25,6,Yes,Yes,11/11/2021
+40898,Krystal,5814 Normandy Blvd,Fast Food,Jacksonville,US,32205,FL,DELETED,25,10,Yes,Yes,4/15/2021
+40899,Krystal,1263 Highway 231 S,Fast Food,Troy,US,36081,AL,ACTIVE,39,9,Yes,Yes,12/6/2021
+40900,McDonald's,131 Ryan Rd,Fast Food Restaurant,Spearfish,US,57783,SD,ACTIVE,29,9,Yes,Yes,10/19/2021
+40901,Krystal,4585 San Juan Avenue,Fast Food,Jacksonville,US,32210,FL,DELETED,24,12,Yes,Yes,2/3/2021
+40902,Garden Catering,314 Westport Ave,Fast Food Restaurant,Norwalk,US,6851,CT,ACTIVE,20,9,Yes,Yes,4/30/2021
+40903,Krystal,5650 Atlanta Hwy,Fast Food Restaurant,Montgomery,US,36117,AL,ACTIVE,38,6,Yes,Yes,6/10/2021
+40904,McDonald's,3101 E 26th St,Fast Food Restaurant,Sioux Falls,US,57103,SD,ACTIVE,21,5,Yes,Yes,1/18/2021
+40905,McDonald's,4000 W 41st St,Fast Food Restaurant,Sioux Falls,US,57106,SD,ACTIVE,31,13,Yes,Yes,4/22/2021
+40906,McDonald's,2223 W Main St,Fast Food,Rapid City,US,57702,SD,ACTIVE,37,7,Yes,Yes,4/3/2021
+40907,McDonald's,1200 N Lacrosse St,Fast Food Restaurant,Rapid City,US,57701,SD,ACTIVE,30,11,Yes,Yes,4/1/2021
+40908,McDonald's,3919 Cheyenne Blvd,Fast Food,Rapid City,US,57703,SD,ACTIVE,31,15,Yes,Yes,4/15/2021
+40909,Round Table Pizza,32525 Golden Lantern St Ste B,Fast Food,Dana Point,US,92629,CA,ACTIVE,39,12,Yes,Yes,7/21/2021
+40910,Pizza Hut,34119 Pacific Coast Hwy,Fast Food,Dana Point,US,92629,CA,ACTIVE,28,5,Yes,Yes,5/1/2021
+40911,McDonald's,610 W Sioux Ave,Fast Food,Pierre,US,57501,SD,ACTIVE,31,7,Yes,Yes,5/20/2021
+40912,McDonald's,200 S Main St,Fast Food Restaurant,Chamberlain,US,57325,SD,ACTIVE,27,14,Yes,Yes,10/19/2021
+40913,Taco Bell,4817 Highway 29 S,Fast Food Restaurant and Mexican Restaurant,Alexandria,US,56308,MN,ACTIVE,20,11,Yes,Yes,3/30/2021
+40914,McDonald's,1605 6th St,Fast Food Restaurants,Brookings,US,57006,SD,ACTIVE,40,11,Yes,Yes,1/23/2021
+40915,A's Ace Burgers,34344 Pacific Coast Hwy,Burger Joint and Fast Food Restaurant,Dana Point,US,92629,CA,ACTIVE,39,12,Yes,Yes,11/6/2021
+40916,Taco Bell,7295 University Ave NE,Fast Food,Minneapolis,US,55432,MN,ACTIVE,38,6,Yes,Yes,10/13/2021
+40917,Hardee's,526 N Line St,Fast Food Restaurant,Columbia City,US,46725,IN,ACTIVE,39,7,Yes,Yes,7/18/2021
+40918,Taco Bell,975 W 78th St,Fast Food Restaurant and Mexican Restaurant,Chanhassen,US,55317,MN,ACTIVE,26,14,Yes,Yes,8/1/2021
+40919,Taco Bell,9230 Lyndale Ave S,Fast Food Restaurants,Minneapolis,US,55420,MN,ACTIVE,24,13,Yes,Yes,1/9/2021
+40920,Hardee's,1835 E Sangamon Ave,Fast Food Restaurants,Springfield,US,62702,IL,ACTIVE,39,5,Yes,Yes,6/21/2021
+40921,Hardee's,503 1st Ave,Fast Food Restaurants,Rock Falls,US,61071,IL,ACTIVE,33,11,Yes,Yes,7/26/2021
+40922,Taco Bell,4141 Mormon Coulee Ct,Fast Food Restaurant,La Crosse,US,54601,WI,DELETED,22,14,Yes,Yes,10/28/2021
+40923,Hardee's,326 S Century Blvd,Fast Food,Rantoul,US,61866,IL,ACTIVE,26,15,Yes,Yes,1/30/2021
+40924,Taco Bell,291 County Road 10 Ne,Fast Food Restaurant,Minneapolis,US,55434,MN,ACTIVE,27,14,Yes,Yes,2/22/2021
+40925,Taco Bell,1940 Suburban Ave,Fast Food Restaurant,Saint Paul,US,55119,MN,ACTIVE,34,7,Yes,Yes,1/31/2021
+40926,Taco Bell,215 E Lake St,Fast Food Restaurant,Minneapolis,US,55408,MN,ACTIVE,20,6,Yes,Yes,8/12/2021
+40927,Taco Bell,1901 Highway 13 W,Fast Food Restaurant and Mexican Restaurant Highland,Burnsville,US,55337,MN,ACTIVE,25,13,Yes,Yes,10/4/2021
+40928,Jack in the Box,2101 Palos Verdes Dr N,Fast Food Restaurant,Lomita,US,90717,CA,ACTIVE,35,12,Yes,Yes,3/24/2021
+40929,Taco Bell,1101 Larpenteur Ave W,Fast Food Restaurant,Saint Paul,US,55113,MN,ACTIVE,37,15,Yes,Yes,5/8/2021
+40930,Hardee's,539 Woodlawn Rd,Fast Food Restaurant,Lincoln,US,62656,IL,ACTIVE,32,10,Yes,Yes,4/12/2021
+40931,Hardee's,501 S Madison St,Fast Food,Lebanon,US,62254,IL,ACTIVE,38,14,Yes,Yes,12/5/2021
+40932,Taco Bell,14040 Highway 13 S,Fast Food Restaurant,Savage,US,55378,MN,ACTIVE,20,8,Yes,Yes,10/20/2021
+40933,Jack in the Box,205 Trask St,Fast Food Restaurants,Bakersfield,US,93314,CA,ACTIVE,32,8,Yes,Yes,12/13/2021
+40934,Jack in the Box,20423 Avalon Blvd,Fast Food Restaurant,Carson,US,90746,CA,ACTIVE,29,8,Yes,Yes,6/20/2021
+40935,Hardee's,619 S Galena Ave,Fast Food,Dixon,US,61021,IL,DELETED,30,8,Yes,Yes,4/15/2021
+40936,Hardee's,1080 W Eldorado St,Fast Food,Decatur,US,62522,IL,ACTIVE,21,13,Yes,Yes,5/12/2021
+40937,Jack in the Box,201 S Spruce Ave,Fast Food Restaurant,South San Francisco,US,94080,CA,ACTIVE,24,15,Yes,Yes,7/7/2021
+40938,Jack in the Box,19586 Van Buren Blvd,Fast Food Restaurant,Riverside,US,92508,CA,DELETED,38,11,Yes,Yes,10/18/2021
+40939,Jack in the Box,19090 Brookhurst St,Fast Food,Huntington Beach,US,92646,CA,ACTIVE,21,6,Yes,Yes,8/9/2021
+40940,Jack in the Box,1923 Douglas Blvd,Fast Food Restaurant,Roseville,US,95661,CA,ACTIVE,21,12,Yes,Yes,3/9/2021
+40941,Hardee's,805 Franklin St,Fast Food Restaurant,Waterloo,US,50703,IA,ACTIVE,20,11,Yes,Yes,7/29/2021
+40942,Hardee's,118 W Highway 30,Fast Food Restaurants,Toledo,US,52342,IA,ACTIVE,24,5,Yes,Yes,10/5/2021
+40943,Hardee's,118 W Highway 30,Fast Food Restaurant,Toledo,US,52342,IA,ACTIVE,20,15,Yes,Yes,1/12/2021
+40944,Hardee's,905 E Washington St,Fast Food Restaurants,Mount Pleasant,US,52641,IA,ACTIVE,22,7,Yes,Yes,11/26/2021
+40945,Hardee's,102 Highway 1 S,Fast Food Restaurant,Mount Vernon,US,52314,IA,ACTIVE,36,10,Yes,Yes,10/4/2021
+40946,Hardee's,902 S Center St,Fast Food Restaurants,Marshalltown,US,50158,IA,ACTIVE,33,11,Yes,Yes,9/19/2021
+40947,Hardee's,1002 W Pleasant St,Fast Food Restaurants,Knoxville,US,50138,IA,ACTIVE,28,6,Yes,Yes,1/18/2021
+40948,Jack in the Box,18271 Gale Ave,Fast Food Restaurant,Rowland Heights,US,91748,CA,ACTIVE,24,5,Yes,Yes,11/20/2021
+40949,Arby's,6945 Camino Arroyo,Fast Food Restaurants,Gilroy,US,95020,CA,ACTIVE,26,7,Yes,Yes,2/3/2021
+40950,Hardee's,1019 West St,Fast Food Restaurants,Grinnell,US,50112,IA,ACTIVE,25,11,Yes,Yes,2/18/2021
+40951,Jack in the Box,1814 2nd St,Fast Food Restaurant,San Rafael,US,94901,CA,ACTIVE,38,11,Yes,Yes,10/19/2021
+40952,Pizza Hut,1336 W Rosecrans Ave,Fast Food,Gardena,US,90247,CA,ACTIVE,32,9,Yes,Yes,10/21/2021
+40953,Arby's,3101 Princeton Rd,Fast Food Restaurants,Hamilton,US,45011,OH,DELETED,28,9,Yes,Yes,2/1/2021
+40954,Baker's Drive Thru,8882 Sierra Ave,Fast Food Restaurant,Fontana,US,92335,CA,ACTIVE,36,5,Yes,Yes,4/15/2021
+40955,Pizza Hut,9299 Sierra Ave,Fast Food Restaurants,Fontana,US,92335,CA,ACTIVE,32,15,Yes,Yes,9/2/2021
+40956,Pizza Guys,3691 Thornton Ave,Fast Food,Fremont,US,94536,CA,ACTIVE,30,13,Yes,Yes,5/23/2021
+40957,Arby's,1766 Highway 119 N,"Fast Food Restaurant, Sandwich Place, and American Restaurant",Ermine,US,41815,KY,ACTIVE,36,9,Yes,Yes,12/24/2021
+40958,Arby's,1339 Us Hwy 68 S,Fast Food,Maysville,US,41056,KY,ACTIVE,25,7,Yes,Yes,7/5/2021
+40959,Arby's,318 Southside Mall,"Fast Food Restaurant, Sandwich Place, and American Restaurant",South Williamson,US,41503,KY,ACTIVE,36,8,Yes,Yes,4/5/2021
+40960,Chicago Pizza With A Twist,5560 E Kings Canyon Rd,Fast Food Restaurants,Fresno,US,93727,CA,ACTIVE,27,11,Yes,Yes,9/11/2021
+40961,Arby's,20739 Hall Rd,Fast Food,Macomb,US,48044,MI,ACTIVE,24,6,Yes,Yes,6/21/2021
+40962,Arby's,102 East Highway 16,Fast Food Restaurant,Oacoma,US,57365,SD,ACTIVE,27,5,Yes,Yes,8/16/2021
+40963,Arby's,1500 South Willow St,Fast Food Restaurant,Manchester,US,3103,NH,ACTIVE,35,8,Yes,Yes,12/28/2021
+40964,Arby's,709 S Park Dr,Fast Food,Broken Bow,US,74728,OK,ACTIVE,30,14,Yes,Yes,5/16/2021
+40965,Arby's,830 Schuylkill Mall,Fast Food Restaurant,Frackville,US,17931,PA,ACTIVE,36,12,Yes,Yes,12/16/2021
+40966,Arby's,41 E Stewart Ave,"Fast Food Restaurant, Sandwich Place, and American Restaurant",Medford,US,97501,OR,ACTIVE,39,13,Yes,Yes,9/20/2021
+40967,Arby's,2303 Elmira St,Fast Food,Sayre,US,18840,PA,ACTIVE,37,14,Yes,Yes,12/26/2021
+40968,Arby's,4675 Cleburne Blvd,"Fast Food Restaurant, Sandwich Place, and American Restaurant",Dublin,US,24084,VA,ACTIVE,27,12,Yes,Yes,4/25/2021
+40969,Surfside Burger Shack,445 5th St,Fast Food Restaurants,Eureka,US,95501,CA,ACTIVE,36,10,Yes,Yes,6/24/2021
+40970,Arby's,75 Market Street,Fast Food Restaurant,Gordonsville,US,22942,VA,ACTIVE,31,11,Yes,Yes,6/25/2021
+40971,Arby's,16338 N Oracle Rd,Fast Food Restaurant,Tucson,US,85739,AZ,ACTIVE,27,6,Yes,Yes,1/24/2021
+40972,Arby's,1003 Nw Washington Blvd,Fast Food,Hamilton,US,45013,OH,ACTIVE,34,11,Yes,Yes,11/11/2021
+40973,Arby's,906 State Rd 28,"Fast Food Restaurant, Sandwich Place, and American Restaurant",Milford,US,45150,OH,ACTIVE,30,11,Yes,Yes,2/11/2021
+40974,Arby's,6271 Glenway Ave,Fast Food Restaurants,Cincinnati,US,45211,OH,ACTIVE,31,7,Yes,Yes,5/20/2021
+40975,Arby's,8657 Winton Rd,Fast Food Restaurants,Cincinnati,US,45231,OH,ACTIVE,23,12,Yes,Yes,1/11/2021
+40976,Arby's,1315 Elliot Dr,Fast Food Restaurant,Middletown,US,45042,OH,ACTIVE,27,10,Yes,Yes,1/17/2021
+40977,Arby's,5561 S State Rte 741,"American Restaurant, Fast Food Restaurant, and Sandwich Place",Mason,US,45040,OH,ACTIVE,36,13,Yes,Yes,12/16/2021
+40978,Arby's,200 Airport Blvd,Fast Food Restaurant,Hot Springs National Park,US,71913,AR,ACTIVE,25,12,Yes,Yes,9/22/2021
+40979,Arby's,4701 Paseo Del Norte,Fast Food Restaurant and Sandwich Place,Albuquerque,US,87113,NM,ACTIVE,24,7,Yes,Yes,10/17/2021
+40980,Arby's,1208 E Hwy 44,Fast Food Restaurant,Shepherdsville,US,40165,KY,ACTIVE,39,5,Yes,Yes,11/2/2021
+40981,Arby's,2575 Ne Highway 99 W,Fast Food Restaurants,McMinnville,US,97128,OR,ACTIVE,38,7,Yes,Yes,6/10/2021
+40982,Burger King,1282 S Boston Rd,Fast food restaurants,Danville,US,24540,VA,ACTIVE,30,7,Yes,Yes,1/21/2021
+40983,Arby's,1535 Denmark Rd,Fast Food,Union,US,63084,MO,ACTIVE,27,5,Yes,Yes,4/21/2021
+40984,Arby's,348 Lincoln Ave SE,Fast Food Restaurants,Saint Cloud,US,56301,MN,ACTIVE,27,14,Yes,Yes,3/26/2021
+40985,Arby's,225 3rd St W,Fast Food Restaurants,Thief River Falls,US,56701,MN,ACTIVE,40,14,Yes,Yes,1/10/2021
+40986,Arby's,1663 N Humiston Ave,Fast Food Restaurants,Worthington,US,56187,MN,ACTIVE,30,7,Yes,Yes,10/24/2021
+40987,Baskin-Robbins,325 S Diamond Bar Blvd,Fast Food,Diamond Bar,US,91765,CA,ACTIVE,32,14,Yes,Yes,7/7/2021
+40988,Arby's,1855 Madison Ave,Fast Food,Mankato,US,56001,MN,DELETED,24,9,Yes,Yes,12/18/2021
+40989,Arby's,1218 Apache Dr SW,Fast Food,Rochester,US,55902,MN,DELETED,26,8,Yes,Yes,3/21/2021
+40990,Arby's,10320 Baltimore St NE,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Minneapolis,US,55449,MN,ACTIVE,25,12,Yes,Yes,2/17/2021
+40991,Arby's,3385 124th Ave NW,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Minneapolis,US,55433,MN,DELETED,28,5,Yes,Yes,4/21/2021
+40992,Arby's,9240 Lyndale Ave S,"Fast Food Restaurant, American Restaurant, and Sandwich Place East Bloomington",Minneapolis,US,55420,MN,ACTIVE,32,14,Yes,Yes,2/20/2021
+40993,Arby's,1690 Park Place Blvd,Fast Food Restaurant,Minneapolis,US,55416,MN,ACTIVE,24,15,Yes,Yes,1/7/2021
+40994,Arby's,7885 Wedgewood Lane,Fast Food Restaurant,Osseo,US,55369,MN,ACTIVE,22,7,Yes,Yes,9/6/2021
+40995,Arby's,8010 Old Carriage Ct,Fast Food Restaurant,Shakopee,US,55379,MN,ACTIVE,21,11,Yes,Yes,7/2/2021
+40996,Arby's,7525 153rd St W,Fast Food Restaurant,Saint Paul,US,55124,MN,ACTIVE,39,14,Yes,Yes,8/2/2021
+40997,Arby's,654 Snelling Ave S,Fast Food,Saint Paul,US,55116,MN,ACTIVE,34,15,Yes,Yes,12/12/2021
+40998,Arby's,313 Lyndale Ave,"Fast Food Restaurant, American Restaurant, and Sandwich Place",Faribault,US,55021,MN,ACTIVE,23,8,Yes,Yes,12/6/2021
+40999,Arby's,3109 White Bear Ave,Fast Food,Saint Paul,US,55109,MN,ACTIVE,24,12,Yes,Yes,11/10/2021
